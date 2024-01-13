@@ -1,0 +1,7 @@
+{
+  "file": "data/evaluation/benchmark.json",
+  "sha256": "2be87eaed33c173ca2ffd8a5a4f0e7ada76a96c952a53c882480131c3e30607a",
+  "cases": 120,
+  "development": 72,
+  "holdout": 48
+}
