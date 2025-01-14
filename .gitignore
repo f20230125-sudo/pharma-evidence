@@ -1,0 +1,17 @@
+node_modules/
+.next/
+.vercel/
+.env
+.env.*
+!.env.example
+*.tsbuildinfo
+next-env.d.ts
+test-results/
+playwright-report/
+__pycache__/
+data/warehouse/
+public/models/
+public/ort/
+public/ai/
+data/evaluation/predictions.local.json
+*.log

@@ -1,0 +1,8 @@
+* text=auto
+*.json text eol=lf
+*.xml text eol=lf
+*.csv text eol=lf
+data/raw/*.xml -text -diff
+data/raw/* -diff
+public/data/corpus.json linguist-generated=true
+data/evaluation/predictions.json linguist-generated=true

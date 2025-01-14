@@ -1,0 +1,4638 @@
+[
+  {
+    "id": "PE-01-1",
+    "family": "F01",
+    "split": "development",
+    "product": "winrevair",
+    "claim": "WINREVAIR™ is indicated for the treatment of adults with pulmonary arterial hypertension (PAH, Group 1 pulmonary hypertension) to improve exercise capacity and World Health Organization (WHO) functional class (FC), and reduce the risk of clinical worsening events including hospitalization for PAH, lung transplantation and death [see Clinical Studies (14.1) ] .",
+    "supported": true,
+    "kind": "source-exact",
+    "evidenceId": "winrevair-v13:1-indicationsandusage:p1",
+    "sectionId": "winrevair-v13:1-indicationsandusage",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "winrevair-v13:1-indicationsandusage:p1",
+      "winrevair-v13:14-pulmonaryarterialhypertension:p33",
+      "winrevair-v13:8-pregnancy:p2"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": true,
+    "combinedSupported": true,
+    "neural": {
+      "label": "entailment",
+      "scores": {
+        "contradiction": 0.001663315404385998,
+        "entailment": 0.9914418749419927,
+        "neutral": 0.0068948096536214695
+      },
+      "elapsedMs": 50,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-d531df66",
+      "evidenceId": "winrevair-v13:1-indicationsandusage:p1"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-01-2",
+    "family": "F01",
+    "split": "development",
+    "product": "winrevair",
+    "claim": "WINREVAIR is indicated for adults with PAH, Group 1 pulmonary hypertension, to improve exercise capacity and WHO functional class and reduce the risk of clinical worsening events including hospitalization for PAH, lung transplantation and death.",
+    "supported": true,
+    "kind": "paraphrase",
+    "evidenceId": "winrevair-v13:1-indicationsandusage:p1",
+    "sectionId": "winrevair-v13:1-indicationsandusage",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "winrevair-v13:1-indicationsandusage:p1",
+      "winrevair-v13:14-pulmonaryarterialhypertension:p33",
+      "winrevair-v13:14-pulmonaryarterialhypertension:p42"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": true,
+    "combinedSupported": true,
+    "neural": {
+      "label": "entailment",
+      "scores": {
+        "contradiction": 0.0007562136041384231,
+        "entailment": 0.9935950222038036,
+        "neutral": 0.005648764192058084
+      },
+      "elapsedMs": 31,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-962e2858",
+      "evidenceId": "winrevair-v13:1-indicationsandusage:p1"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-01-3",
+    "family": "F01",
+    "split": "development",
+    "product": "winrevair",
+    "claim": "WINREVAIR is indicated for children of every age with all forms of pulmonary hypertension.",
+    "supported": false,
+    "kind": "mutation-1",
+    "evidenceId": "winrevair-v13:1-indicationsandusage:p1",
+    "sectionId": "winrevair-v13:1-indicationsandusage",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "winrevair-v13:1-indicationsandusage:p1",
+      "winrevair-v13:8-pregnancy:p2",
+      "winrevair-v13:14-pulmonaryarterialhypertension:p32"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": false,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "neutral",
+      "scores": {
+        "contradiction": 0.03642314230745337,
+        "entailment": 0.00207079504662984,
+        "neutral": 0.9615060626459169
+      },
+      "elapsedMs": 28,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-bab8e44a",
+      "evidenceId": "winrevair-v13:8-pregnancy:p2"
+    },
+    "issues": [
+      {
+        "kind": "population",
+        "title": "Population extends beyond this reference",
+        "detail": "The indication passage describes adults with PAH, WHO Group 1. A pediatric benefit claim is not established by this source."
+      }
+    ]
+  },
+  {
+    "id": "PE-01-4",
+    "family": "F01",
+    "split": "development",
+    "product": "winrevair",
+    "claim": "WINREVAIR is indicated for adults with WHO Group 5 pulmonary hypertension.",
+    "supported": false,
+    "kind": "mutation-2",
+    "evidenceId": "winrevair-v13:1-indicationsandusage:p1",
+    "sectionId": "winrevair-v13:1-indicationsandusage",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "winrevair-v13:1-indicationsandusage:p1",
+      "winrevair-v13:8-pregnancy:p2",
+      "winrevair-v13:12-pharmacodynamics:p1"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": false,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "neutral",
+      "scores": {
+        "contradiction": 0.06368355254700607,
+        "entailment": 0.001525437175416926,
+        "neutral": 0.934791010277577
+      },
+      "elapsedMs": 22,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-effc2724",
+      "evidenceId": "winrevair-v13:8-pregnancy:p2"
+    },
+    "issues": [
+      {
+        "kind": "qualifier",
+        "title": "Eligibility qualifiers need review",
+        "detail": "The draft does not state WHO Group 1. Check the full context before broadening the referenced indication."
+      }
+    ]
+  },
+  {
+    "id": "PE-01-5",
+    "family": "F01",
+    "split": "development",
+    "product": "winrevair",
+    "claim": "WINREVAIR™ is indicated for the treatment of adults with pulmonary arterial hypertension (PAH, Group 1 pulmonary hypertension) to improve exercise capacity and World Health Organization (WHO) functional class (FC), and reduce the risk of clinical worsening events including hospitalization for PAH, lung transplantation and death [see Clinical Studies (14.1) ] and is superior to all alternative medicines.",
+    "supported": false,
+    "kind": "unsupported-comparison",
+    "evidenceId": "winrevair-v13:1-indicationsandusage:p1",
+    "sectionId": "winrevair-v13:1-indicationsandusage",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "winrevair-v13:1-indicationsandusage:p1",
+      "winrevair-v13:14-pulmonaryarterialhypertension:p33",
+      "winrevair-v13:14-pulmonaryarterialhypertension:p42"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": false,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "neutral",
+      "scores": {
+        "contradiction": 0.000778123152809748,
+        "entailment": 0.0005772318916742844,
+        "neutral": 0.998644644955516
+      },
+      "elapsedMs": 35,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-75e43658",
+      "evidenceId": "winrevair-v13:1-indicationsandusage:p1"
+    },
+    "issues": [
+      {
+        "kind": "unsupported",
+        "title": "Unsubstantiated assertion",
+        "detail": "An absolute, comparative or curative assertion needs specific supporting evidence. A matching word or source citation is insufficient."
+      }
+    ]
+  },
+  {
+    "id": "PE-01-6",
+    "family": "F01",
+    "split": "development",
+    "product": "winrevair",
+    "claim": "WINREVAIR™ is indicated for the treatment of adults with pulmonary arterial hypertension (PAH, Group 1 pulmonary hypertension) to improve exercise capacity and World Health Organization (WHO) functional class (FC), and reduce the risk of clinical worsening events including hospitalization for PAH, lung transplantation and death [see Clinical Studies (14.1) ] and guarantees a complete cure without any adverse reactions.",
+    "supported": false,
+    "kind": "unsupported-guarantee",
+    "evidenceId": "winrevair-v13:1-indicationsandusage:p1",
+    "sectionId": "winrevair-v13:1-indicationsandusage",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "winrevair-v13:1-indicationsandusage:p1",
+      "winrevair-v13:14-pulmonaryarterialhypertension:p33",
+      "winrevair-v13:8-pregnancy:p2"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": false,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "neutral",
+      "scores": {
+        "contradiction": 0.0685627392188655,
+        "entailment": 0.0004352935972020741,
+        "neutral": 0.9310019671839325
+      },
+      "elapsedMs": 36,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-341f1ca3",
+      "evidenceId": "winrevair-v13:14-pulmonaryarterialhypertension:p33"
+    },
+    "issues": [
+      {
+        "kind": "unsupported",
+        "title": "Unsubstantiated assertion",
+        "detail": "An absolute, comparative or curative assertion needs specific supporting evidence. A matching word or source citation is insufficient."
+      }
+    ]
+  },
+  {
+    "id": "PE-02-1",
+    "family": "F02",
+    "split": "holdout",
+    "product": "keytruda",
+    "claim": "KEYTRUDA ® is indicated for the treatment of patients with unresectable or metastatic melanoma.",
+    "supported": true,
+    "kind": "source-exact",
+    "evidenceId": "keytruda-v228:1-melanoma:p1",
+    "sectionId": "keytruda-v228:1-melanoma",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:1-melanoma:p1",
+      "keytruda-v228:1-biliarytractcancer:p1",
+      "keytruda-v228:1-malignantpleuralmesothelioma:p1"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": true,
+    "combinedSupported": true,
+    "neural": {
+      "label": "entailment",
+      "scores": {
+        "contradiction": 0.005648401883946245,
+        "entailment": 0.9838829810072401,
+        "neutral": 0.010468617108813597
+      },
+      "elapsedMs": 19,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-2c0aff73",
+      "evidenceId": "keytruda-v228:1-melanoma:p1"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-02-2",
+    "family": "F02",
+    "split": "holdout",
+    "product": "keytruda",
+    "claim": "KEYTRUDA is indicated to treat unresectable or metastatic melanoma.",
+    "supported": true,
+    "kind": "paraphrase",
+    "evidenceId": "keytruda-v228:1-melanoma:p1",
+    "sectionId": "keytruda-v228:1-melanoma",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:1-melanoma:p1",
+      "keytruda-v228:1-biliarytractcancer:p1",
+      "keytruda-v228:1-malignantpleuralmesothelioma:p1"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": true,
+    "combinedSupported": true,
+    "neural": {
+      "label": "entailment",
+      "scores": {
+        "contradiction": 0.0007708918813988937,
+        "entailment": 0.9949107236963308,
+        "neutral": 0.004318384422270155
+      },
+      "elapsedMs": 18,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-4f10a0a7",
+      "evidenceId": "keytruda-v228:1-melanoma:p1"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-02-3",
+    "family": "F02",
+    "split": "holdout",
+    "product": "keytruda",
+    "claim": "KEYTRUDA is indicated only for fully resected, nonmetastatic melanoma.",
+    "supported": false,
+    "kind": "mutation-1",
+    "evidenceId": "keytruda-v228:1-melanoma:p1",
+    "sectionId": "keytruda-v228:1-melanoma",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:1-melanoma:p1",
+      "keytruda-v228:1-melanoma:p2"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "contradiction",
+      "scores": {
+        "contradiction": 0.9249032972089939,
+        "entailment": 0.0031336209485621717,
+        "neutral": 0.07196308184244408
+      },
+      "elapsedMs": 19,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-91ae887f",
+      "evidenceId": "keytruda-v228:1-melanoma:p2"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-02-4",
+    "family": "F02",
+    "split": "holdout",
+    "product": "keytruda",
+    "claim": "KEYTRUDA cures every form of melanoma.",
+    "supported": false,
+    "kind": "mutation-2",
+    "evidenceId": "keytruda-v228:1-melanoma:p1",
+    "sectionId": "keytruda-v228:1-melanoma",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:12-pharmacodynamics:p1",
+      "keytruda-v228:2-recommendeddosage:p3",
+      "keytruda-v228:8-pediatricuse:p3"
+    ],
+    "retrievalHit": false,
+    "rulesSupported": false,
+    "retrievalSupported": false,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "neutral",
+      "scores": {
+        "contradiction": 0.25020287896667087,
+        "entailment": 0.003396128067660862,
+        "neutral": 0.7464009929656682
+      },
+      "elapsedMs": 40,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-b4ebe07a",
+      "evidenceId": "keytruda-v228:2-recommendeddosage:p3"
+    },
+    "issues": [
+      {
+        "kind": "unsupported",
+        "title": "Unsubstantiated assertion",
+        "detail": "An absolute, comparative or curative assertion needs specific supporting evidence. A matching word or source citation is insufficient."
+      }
+    ]
+  },
+  {
+    "id": "PE-02-5",
+    "family": "F02",
+    "split": "holdout",
+    "product": "keytruda",
+    "claim": "KEYTRUDA ® is indicated for the treatment of patients with unresectable or metastatic melanoma and is superior to all alternative medicines.",
+    "supported": false,
+    "kind": "unsupported-comparison",
+    "evidenceId": "keytruda-v228:1-melanoma:p1",
+    "sectionId": "keytruda-v228:1-melanoma",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:1-melanoma:p1",
+      "keytruda-v228:1-microsatelliteinstabilityhighormismatchrepairdeficientcancer:p1",
+      "keytruda-v228:1-tumormutationalburdenhighcancer:p1"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": false,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "neutral",
+      "scores": {
+        "contradiction": 0.017564962640763758,
+        "entailment": 0.0006170320297250877,
+        "neutral": 0.9818180053295111
+      },
+      "elapsedMs": 25,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-eb1d613",
+      "evidenceId": "keytruda-v228:1-microsatelliteinstabilityhighormismatchrepairdeficientcancer:p1"
+    },
+    "issues": [
+      {
+        "kind": "unsupported",
+        "title": "Unsubstantiated assertion",
+        "detail": "An absolute, comparative or curative assertion needs specific supporting evidence. A matching word or source citation is insufficient."
+      }
+    ]
+  },
+  {
+    "id": "PE-02-6",
+    "family": "F02",
+    "split": "holdout",
+    "product": "keytruda",
+    "claim": "KEYTRUDA ® is indicated for the treatment of patients with unresectable or metastatic melanoma and guarantees a complete cure without any adverse reactions.",
+    "supported": false,
+    "kind": "unsupported-guarantee",
+    "evidenceId": "keytruda-v228:1-melanoma:p1",
+    "sectionId": "keytruda-v228:1-melanoma",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:1-melanoma:p1",
+      "keytruda-v228:1-melanoma:p2",
+      "keytruda-v228:1-biliarytractcancer:p1"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": false,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "contradiction",
+      "scores": {
+        "contradiction": 0.763205649949387,
+        "entailment": 0.0005488911496797213,
+        "neutral": 0.2362454589009333
+      },
+      "elapsedMs": 21,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-803c5d4",
+      "evidenceId": "keytruda-v228:1-melanoma:p2"
+    },
+    "issues": [
+      {
+        "kind": "unsupported",
+        "title": "Unsubstantiated assertion",
+        "detail": "An absolute, comparative or curative assertion needs specific supporting evidence. A matching word or source citation is insufficient."
+      }
+    ]
+  },
+  {
+    "id": "PE-03-1",
+    "family": "F03",
+    "split": "development",
+    "product": "winrevair",
+    "claim": "WINREVAIR is administered once every 3 weeks by subcutaneous injection according to patient body weight.",
+    "supported": true,
+    "kind": "source-exact",
+    "evidenceId": "winrevair-v13:2-recommendedstartingdosage:p1",
+    "sectionId": "winrevair-v13:2-recommendedstartingdosage",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "winrevair-v13:2-recommendedstartingdosage:p1",
+      "winrevair-v13:6-clinicaltrialsexperience:p4",
+      "winrevair-v13:13-carcinogenesismutagenesisimpairmentoffertility:p5"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": true,
+    "combinedSupported": true,
+    "neural": {
+      "label": "entailment",
+      "scores": {
+        "contradiction": 0.005353954886081969,
+        "entailment": 0.9761697827173624,
+        "neutral": 0.018476262396555514
+      },
+      "elapsedMs": 19,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-61a1b63c",
+      "evidenceId": "winrevair-v13:2-recommendedstartingdosage:p1"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-03-2",
+    "family": "F03",
+    "split": "development",
+    "product": "winrevair",
+    "claim": "WINREVAIR is administered by subcutaneous injection once every three weeks according to body weight.",
+    "supported": true,
+    "kind": "paraphrase",
+    "evidenceId": "winrevair-v13:2-recommendedstartingdosage:p1",
+    "sectionId": "winrevair-v13:2-recommendedstartingdosage",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "winrevair-v13:2-recommendedstartingdosage:p1",
+      "winrevair-v13:6-clinicaltrialsexperience:p4",
+      "winrevair-v13:14-pulmonaryarterialhypertension:p50"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": true,
+    "combinedSupported": true,
+    "neural": {
+      "label": "entailment",
+      "scores": {
+        "contradiction": 0.001607160575439845,
+        "entailment": 0.9843912036821679,
+        "neutral": 0.01400163574239211
+      },
+      "elapsedMs": 20,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-21cda40c",
+      "evidenceId": "winrevair-v13:2-recommendedstartingdosage:p1"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-03-3",
+    "family": "F03",
+    "split": "development",
+    "product": "winrevair",
+    "claim": "WINREVAIR is administered by oral tablet every day.",
+    "supported": false,
+    "kind": "mutation-1",
+    "evidenceId": "winrevair-v13:2-recommendedstartingdosage:p1",
+    "sectionId": "winrevair-v13:2-recommendedstartingdosage",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "winrevair-v13:2-recommendedstartingdosage:p1",
+      "winrevair-v13:13-carcinogenesismutagenesisimpairmentoffertility:p2",
+      "winrevair-v13:6-clinicaltrialsexperience:p4"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": false,
+    "retrievalSupported": false,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "contradiction",
+      "scores": {
+        "contradiction": 0.9357004876291715,
+        "entailment": 0.010736319975067916,
+        "neutral": 0.05356319239576058
+      },
+      "elapsedMs": 18,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-1b79555f",
+      "evidenceId": "winrevair-v13:13-carcinogenesismutagenesisimpairmentoffertility:p2"
+    },
+    "issues": [
+      {
+        "kind": "numeric",
+        "title": "Dosing interval needs review",
+        "detail": "The reference describes administration once every 3 weeks. Check the full dosing instructions."
+      },
+      {
+        "kind": "mismatch",
+        "title": "Administration route differs",
+        "detail": "The selected WINREVAIR labeling specifies subcutaneous injection."
+      }
+    ]
+  },
+  {
+    "id": "PE-03-4",
+    "family": "F03",
+    "split": "development",
+    "product": "winrevair",
+    "claim": "WINREVAIR is administered once every 2 weeks by intravenous injection.",
+    "supported": false,
+    "kind": "mutation-2",
+    "evidenceId": "winrevair-v13:2-recommendedstartingdosage:p1",
+    "sectionId": "winrevair-v13:2-recommendedstartingdosage",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "winrevair-v13:2-recommendedstartingdosage:p1",
+      "winrevair-v13:6-clinicaltrialsexperience:p4",
+      "winrevair-v13:14-pulmonaryarterialhypertension:p50"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": false,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "contradiction",
+      "scores": {
+        "contradiction": 0.9676489949537587,
+        "entailment": 0.0035548733428959313,
+        "neutral": 0.028796131703345423
+      },
+      "elapsedMs": 17,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-3f7d986a",
+      "evidenceId": "winrevair-v13:6-clinicaltrialsexperience:p4"
+    },
+    "issues": [
+      {
+        "kind": "numeric",
+        "title": "Dosing interval needs review",
+        "detail": "The reference describes administration once every 3 weeks. Check the full dosing instructions."
+      },
+      {
+        "kind": "mismatch",
+        "title": "Administration route differs",
+        "detail": "The selected WINREVAIR labeling specifies subcutaneous injection."
+      }
+    ]
+  },
+  {
+    "id": "PE-03-5",
+    "family": "F03",
+    "split": "development",
+    "product": "winrevair",
+    "claim": "WINREVAIR is administered once every 3 weeks by subcutaneous injection according to patient body weight and is superior to all alternative medicines.",
+    "supported": false,
+    "kind": "unsupported-comparison",
+    "evidenceId": "winrevair-v13:2-recommendedstartingdosage:p1",
+    "sectionId": "winrevair-v13:2-recommendedstartingdosage",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "winrevair-v13:2-recommendedstartingdosage:p1",
+      "winrevair-v13:6-clinicaltrialsexperience:p4",
+      "winrevair-v13:13-carcinogenesismutagenesisimpairmentoffertility:p5"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": false,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "neutral",
+      "scores": {
+        "contradiction": 0.003950797688487075,
+        "entailment": 0.000541832154315006,
+        "neutral": 0.9955073701571979
+      },
+      "elapsedMs": 20,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-46612d76",
+      "evidenceId": "winrevair-v13:6-clinicaltrialsexperience:p4"
+    },
+    "issues": [
+      {
+        "kind": "unsupported",
+        "title": "Unsubstantiated assertion",
+        "detail": "An absolute, comparative or curative assertion needs specific supporting evidence. A matching word or source citation is insufficient."
+      }
+    ]
+  },
+  {
+    "id": "PE-03-6",
+    "family": "F03",
+    "split": "development",
+    "product": "winrevair",
+    "claim": "WINREVAIR is administered once every 3 weeks by subcutaneous injection according to patient body weight and guarantees a complete cure without any adverse reactions.",
+    "supported": false,
+    "kind": "unsupported-guarantee",
+    "evidenceId": "winrevair-v13:2-recommendedstartingdosage:p1",
+    "sectionId": "winrevair-v13:2-recommendedstartingdosage",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "winrevair-v13:2-recommendedstartingdosage:p1",
+      "winrevair-v13:6-clinicaltrialsexperience:p4",
+      "winrevair-v13:13-carcinogenesismutagenesisimpairmentoffertility:p5"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": false,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "neutral",
+      "scores": {
+        "contradiction": 0.0021703283975153323,
+        "entailment": 0.0004927457226899379,
+        "neutral": 0.9973369258797947
+      },
+      "elapsedMs": 22,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-7d6b4485",
+      "evidenceId": "winrevair-v13:2-recommendedstartingdosage:p1"
+    },
+    "issues": [
+      {
+        "kind": "unsupported",
+        "title": "Unsubstantiated assertion",
+        "detail": "An absolute, comparative or curative assertion needs specific supporting evidence. A matching word or source citation is insufficient."
+      }
+    ]
+  },
+  {
+    "id": "PE-04-1",
+    "family": "F04",
+    "split": "holdout",
+    "product": "keytruda",
+    "claim": "KEYTRUDA, in combination with pemetrexed and platinum chemotherapy, is indicated for the first-line treatment of adult patients with unresectable advanced or metastatic malignant pleural mesothelioma (MPM).",
+    "supported": true,
+    "kind": "source-exact",
+    "evidenceId": "keytruda-v228:1-malignantpleuralmesothelioma:p1",
+    "sectionId": "keytruda-v228:1-malignantpleuralmesothelioma",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:1-malignantpleuralmesothelioma:p1",
+      "keytruda-v228:14-malignantpleuralmesothelioma:p1",
+      "keytruda-v228:1-nonsmallcelllungcancer:p1"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": true,
+    "combinedSupported": true,
+    "neural": {
+      "label": "entailment",
+      "scores": {
+        "contradiction": 0.004950745159779282,
+        "entailment": 0.9848902538966361,
+        "neutral": 0.01015900094358443
+      },
+      "elapsedMs": 24,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-8b9c5be3",
+      "evidenceId": "keytruda-v228:1-malignantpleuralmesothelioma:p1"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-04-2",
+    "family": "F04",
+    "split": "holdout",
+    "product": "keytruda",
+    "claim": "KEYTRUDA with pemetrexed and platinum chemotherapy is indicated as first-line treatment for adults with unresectable advanced or metastatic malignant pleural mesothelioma.",
+    "supported": true,
+    "kind": "paraphrase",
+    "evidenceId": "keytruda-v228:1-malignantpleuralmesothelioma:p1",
+    "sectionId": "keytruda-v228:1-malignantpleuralmesothelioma",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:1-malignantpleuralmesothelioma:p1",
+      "keytruda-v228:14-malignantpleuralmesothelioma:p1",
+      "keytruda-v228:1-gastriccancer:p2"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": true,
+    "combinedSupported": true,
+    "neural": {
+      "label": "entailment",
+      "scores": {
+        "contradiction": 0.0008160726470082116,
+        "entailment": 0.99433699985201,
+        "neutral": 0.004846927500981754
+      },
+      "elapsedMs": 23,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-4ae619",
+      "evidenceId": "keytruda-v228:1-malignantpleuralmesothelioma:p1"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-04-3",
+    "family": "F04",
+    "split": "holdout",
+    "product": "keytruda",
+    "claim": "KEYTRUDA alone is indicated for all children with resectable malignant pleural mesothelioma.",
+    "supported": false,
+    "kind": "mutation-1",
+    "evidenceId": "keytruda-v228:1-malignantpleuralmesothelioma:p1",
+    "sectionId": "keytruda-v228:1-malignantpleuralmesothelioma",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:1-malignantpleuralmesothelioma:p1",
+      "keytruda-v228:14-malignantpleuralmesothelioma:p1",
+      "keytruda-v228:1-nonsmallcelllungcancer:p7"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "contradiction",
+      "scores": {
+        "contradiction": 0.9826128595735405,
+        "entailment": 0.00021305442746317985,
+        "neutral": 0.017174085998996273
+      },
+      "elapsedMs": 20,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-15d3254",
+      "evidenceId": "keytruda-v228:14-malignantpleuralmesothelioma:p1"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-04-4",
+    "family": "F04",
+    "split": "holdout",
+    "product": "keytruda",
+    "claim": "KEYTRUDA is indicated for mesothelioma without any requirement for combination chemotherapy or disease setting.",
+    "supported": false,
+    "kind": "mutation-2",
+    "evidenceId": "keytruda-v228:1-malignantpleuralmesothelioma:p1",
+    "sectionId": "keytruda-v228:1-malignantpleuralmesothelioma",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:1-malignantpleuralmesothelioma:p1",
+      "keytruda-v228:1-endometrialcarcinoma:p2",
+      "keytruda-v228:1-endometrialcarcinoma:p3"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "contradiction",
+      "scores": {
+        "contradiction": 0.9969606102263285,
+        "entailment": 0.00028398662166193825,
+        "neutral": 0.0027554031520094914
+      },
+      "elapsedMs": 25,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-ca2f375e",
+      "evidenceId": "keytruda-v228:1-endometrialcarcinoma:p2"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-04-5",
+    "family": "F04",
+    "split": "holdout",
+    "product": "keytruda",
+    "claim": "KEYTRUDA, in combination with pemetrexed and platinum chemotherapy, is indicated for the first-line treatment of adult patients with unresectable advanced or metastatic malignant pleural mesothelioma (MPM) and is superior to all alternative medicines.",
+    "supported": false,
+    "kind": "unsupported-comparison",
+    "evidenceId": "keytruda-v228:1-malignantpleuralmesothelioma:p1",
+    "sectionId": "keytruda-v228:1-malignantpleuralmesothelioma",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:1-malignantpleuralmesothelioma:p1",
+      "keytruda-v228:14-malignantpleuralmesothelioma:p1",
+      "keytruda-v228:1-nonsmallcelllungcancer:p1"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": false,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "neutral",
+      "scores": {
+        "contradiction": 0.0012743986512031736,
+        "entailment": 0.000644258830161515,
+        "neutral": 0.9980813425186353
+      },
+      "elapsedMs": 27,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-b626b623",
+      "evidenceId": "keytruda-v228:14-malignantpleuralmesothelioma:p1"
+    },
+    "issues": [
+      {
+        "kind": "unsupported",
+        "title": "Unsubstantiated assertion",
+        "detail": "An absolute, comparative or curative assertion needs specific supporting evidence. A matching word or source citation is insufficient."
+      }
+    ]
+  },
+  {
+    "id": "PE-04-6",
+    "family": "F04",
+    "split": "holdout",
+    "product": "keytruda",
+    "claim": "KEYTRUDA, in combination with pemetrexed and platinum chemotherapy, is indicated for the first-line treatment of adult patients with unresectable advanced or metastatic malignant pleural mesothelioma (MPM) and guarantees a complete cure without any adverse reactions.",
+    "supported": false,
+    "kind": "unsupported-guarantee",
+    "evidenceId": "keytruda-v228:1-malignantpleuralmesothelioma:p1",
+    "sectionId": "keytruda-v228:1-malignantpleuralmesothelioma",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:1-malignantpleuralmesothelioma:p1",
+      "keytruda-v228:14-malignantpleuralmesothelioma:p1",
+      "keytruda-v228:1-nonsmallcelllungcancer:p1"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": false,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "neutral",
+      "scores": {
+        "contradiction": 0.0021794412458766045,
+        "entailment": 0.00042827159371423845,
+        "neutral": 0.9973922871604091
+      },
+      "elapsedMs": 26,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-f826aa84",
+      "evidenceId": "keytruda-v228:14-malignantpleuralmesothelioma:p1"
+    },
+    "issues": [
+      {
+        "kind": "unsupported",
+        "title": "Unsubstantiated assertion",
+        "detail": "An absolute, comparative or curative assertion needs specific supporting evidence. A matching word or source citation is insufficient."
+      }
+    ]
+  },
+  {
+    "id": "PE-05-1",
+    "family": "F05",
+    "split": "development",
+    "product": "winrevair",
+    "claim": "The starting dose of WINREVAIR is 0.3 mg/kg.",
+    "supported": true,
+    "kind": "source-exact",
+    "evidenceId": "winrevair-v13:2-recommendedstartingdosage:p2",
+    "sectionId": "winrevair-v13:2-recommendedstartingdosage",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "winrevair-v13:2-recommendedstartingdosage:p2",
+      "winrevair-v13:2-recommendedstartingdosage:p8",
+      "winrevair-v13:2-recommendedstartingdosage:p6"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": true,
+    "combinedSupported": true,
+    "neural": {
+      "label": "entailment",
+      "scores": {
+        "contradiction": 0.0010648043792851963,
+        "entailment": 0.9929021652824774,
+        "neutral": 0.006033030338237319
+      },
+      "elapsedMs": 17,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-a8feb1ad",
+      "evidenceId": "winrevair-v13:2-recommendedstartingdosage:p2"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-05-2",
+    "family": "F05",
+    "split": "development",
+    "product": "winrevair",
+    "claim": "The starting dose of WINREVAIR is 0.3 mg/kg.",
+    "supported": true,
+    "kind": "paraphrase",
+    "evidenceId": "winrevair-v13:2-recommendedstartingdosage:p2",
+    "sectionId": "winrevair-v13:2-recommendedstartingdosage",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "winrevair-v13:2-recommendedstartingdosage:p2",
+      "winrevair-v13:2-recommendedstartingdosage:p8",
+      "winrevair-v13:2-recommendedstartingdosage:p6"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": true,
+    "combinedSupported": true,
+    "neural": {
+      "label": "entailment",
+      "scores": {
+        "contradiction": 0.0010648043792851963,
+        "entailment": 0.9929021652824774,
+        "neutral": 0.006033030338237319
+      },
+      "elapsedMs": 17,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-a8feb1ad",
+      "evidenceId": "winrevair-v13:2-recommendedstartingdosage:p2"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-05-3",
+    "family": "F05",
+    "split": "development",
+    "product": "winrevair",
+    "claim": "The starting dose of WINREVAIR is 0.7 mg/kg.",
+    "supported": false,
+    "kind": "mutation-1",
+    "evidenceId": "winrevair-v13:2-recommendedstartingdosage:p2",
+    "sectionId": "winrevair-v13:2-recommendedstartingdosage",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "winrevair-v13:2-recommendedstartingdosage:p2",
+      "winrevair-v13:6-clinicaltrialsexperience:p4",
+      "winrevair-v13:2-recommendedstartingdosage:p8"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": false,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "contradiction",
+      "scores": {
+        "contradiction": 0.9693305419754031,
+        "entailment": 0.018124459420426814,
+        "neutral": 0.012544998604170155
+      },
+      "elapsedMs": 17,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-454c6691",
+      "evidenceId": "winrevair-v13:6-clinicaltrialsexperience:p4"
+    },
+    "issues": [
+      {
+        "kind": "numeric",
+        "title": "Dose differs from the source",
+        "detail": "The selected reference states a starting dose of 0.3 mg/kg and a target dose of 0.7 mg/kg, subject to its monitoring and escalation conditions."
+      }
+    ]
+  },
+  {
+    "id": "PE-05-4",
+    "family": "F05",
+    "split": "development",
+    "product": "winrevair",
+    "claim": "The starting dose of WINREVAIR is 3 mg/kg.",
+    "supported": false,
+    "kind": "mutation-2",
+    "evidenceId": "winrevair-v13:2-recommendedstartingdosage:p2",
+    "sectionId": "winrevair-v13:2-recommendedstartingdosage",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "winrevair-v13:2-recommendedstartingdosage:p2",
+      "winrevair-v13:2-recommendedstartingdosage:p6",
+      "winrevair-v13:6-clinicaltrialsexperience:p4"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": false,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "neutral",
+      "scores": {
+        "contradiction": 0.013561138147327343,
+        "entailment": 0.009223621467755481,
+        "neutral": 0.9772152403849171
+      },
+      "elapsedMs": 16,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-569e6e5b",
+      "evidenceId": "winrevair-v13:2-recommendedstartingdosage:p6"
+    },
+    "issues": [
+      {
+        "kind": "numeric",
+        "title": "Dose differs from the source",
+        "detail": "The selected reference states a starting dose of 0.3 mg/kg and a target dose of 0.7 mg/kg, subject to its monitoring and escalation conditions."
+      }
+    ]
+  },
+  {
+    "id": "PE-05-5",
+    "family": "F05",
+    "split": "development",
+    "product": "winrevair",
+    "claim": "The starting dose of WINREVAIR is 0.3 mg/kg and is superior to all alternative medicines.",
+    "supported": false,
+    "kind": "unsupported-comparison",
+    "evidenceId": "winrevair-v13:2-recommendedstartingdosage:p2",
+    "sectionId": "winrevair-v13:2-recommendedstartingdosage",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "winrevair-v13:2-recommendedstartingdosage:p2",
+      "winrevair-v13:2-recommendedstartingdosage:p8",
+      "winrevair-v13:2-recommendedstartingdosage:p6"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": false,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "neutral",
+      "scores": {
+        "contradiction": 0.004204896702347602,
+        "entailment": 0.001238261224216209,
+        "neutral": 0.9945568420734362
+      },
+      "elapsedMs": 18,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-c973a7a5",
+      "evidenceId": "winrevair-v13:2-recommendedstartingdosage:p8"
+    },
+    "issues": [
+      {
+        "kind": "unsupported",
+        "title": "Unsubstantiated assertion",
+        "detail": "An absolute, comparative or curative assertion needs specific supporting evidence. A matching word or source citation is insufficient."
+      }
+    ]
+  },
+  {
+    "id": "PE-05-6",
+    "family": "F05",
+    "split": "development",
+    "product": "winrevair",
+    "claim": "The starting dose of WINREVAIR is 0.3 mg/kg and guarantees a complete cure without any adverse reactions.",
+    "supported": false,
+    "kind": "unsupported-guarantee",
+    "evidenceId": "winrevair-v13:2-recommendedstartingdosage:p2",
+    "sectionId": "winrevair-v13:2-recommendedstartingdosage",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "winrevair-v13:2-recommendedstartingdosage:p2",
+      "winrevair-v13:2-recommendedstartingdosage:p8",
+      "winrevair-v13:2-recommendedstartingdosage:p6"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": false,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "neutral",
+      "scores": {
+        "contradiction": 0.027871536672672125,
+        "entailment": 0.000745879961778104,
+        "neutral": 0.9713825833655497
+      },
+      "elapsedMs": 19,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-144405d2",
+      "evidenceId": "winrevair-v13:2-recommendedstartingdosage:p8"
+    },
+    "issues": [
+      {
+        "kind": "unsupported",
+        "title": "Unsubstantiated assertion",
+        "detail": "An absolute, comparative or curative assertion needs specific supporting evidence. A matching word or source citation is insufficient."
+      }
+    ]
+  },
+  {
+    "id": "PE-06-1",
+    "family": "F06",
+    "split": "development",
+    "product": "keytruda",
+    "claim": "KEYTRUDA is indicated for the treatment of adult patients with relapsed or refractory classical Hodgkin lymphoma (cHL).",
+    "supported": true,
+    "kind": "source-exact",
+    "evidenceId": "keytruda-v228:1-classicalhodgkinlymphoma:p1",
+    "sectionId": "keytruda-v228:1-classicalhodgkinlymphoma",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:1-classicalhodgkinlymphoma:p1",
+      "keytruda-v228:1-primarymediastinallargebcelllymphoma:p1",
+      "keytruda-v228:1-classicalhodgkinlymphoma:p2"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": true,
+    "combinedSupported": true,
+    "neural": {
+      "label": "entailment",
+      "scores": {
+        "contradiction": 0.005068650911407999,
+        "entailment": 0.9827120699568533,
+        "neutral": 0.012219279131738536
+      },
+      "elapsedMs": 21,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-202ca430",
+      "evidenceId": "keytruda-v228:1-classicalhodgkinlymphoma:p1"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-06-2",
+    "family": "F06",
+    "split": "development",
+    "product": "keytruda",
+    "claim": "KEYTRUDA is indicated to treat adults with relapsed or refractory classical Hodgkin lymphoma.",
+    "supported": true,
+    "kind": "paraphrase",
+    "evidenceId": "keytruda-v228:1-classicalhodgkinlymphoma:p1",
+    "sectionId": "keytruda-v228:1-classicalhodgkinlymphoma",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:1-classicalhodgkinlymphoma:p1",
+      "keytruda-v228:1-primarymediastinallargebcelllymphoma:p1",
+      "keytruda-v228:1-classicalhodgkinlymphoma:p2"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": true,
+    "combinedSupported": true,
+    "neural": {
+      "label": "entailment",
+      "scores": {
+        "contradiction": 0.0005853326506253717,
+        "entailment": 0.9952544176750036,
+        "neutral": 0.004160249674371097
+      },
+      "elapsedMs": 20,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-df97de93",
+      "evidenceId": "keytruda-v228:1-classicalhodgkinlymphoma:p1"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-06-3",
+    "family": "F06",
+    "split": "development",
+    "product": "keytruda",
+    "claim": "KEYTRUDA is indicated only for newly diagnosed adults with classical Hodgkin lymphoma who have never received treatment.",
+    "supported": false,
+    "kind": "mutation-1",
+    "evidenceId": "keytruda-v228:1-classicalhodgkinlymphoma:p1",
+    "sectionId": "keytruda-v228:1-classicalhodgkinlymphoma",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:1-classicalhodgkinlymphoma:p1",
+      "keytruda-v228:1-primarymediastinallargebcelllymphoma:p1",
+      "keytruda-v228:14-endometrialcarcinoma:p6"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "contradiction",
+      "scores": {
+        "contradiction": 0.996101027409957,
+        "entailment": 0.0002530174987365486,
+        "neutral": 0.00364595509130647
+      },
+      "elapsedMs": 20,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-66370c2d",
+      "evidenceId": "keytruda-v228:1-primarymediastinallargebcelllymphoma:p1"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-06-4",
+    "family": "F06",
+    "split": "development",
+    "product": "keytruda",
+    "claim": "KEYTRUDA cures all forms of lymphoma in every patient.",
+    "supported": false,
+    "kind": "mutation-2",
+    "evidenceId": "keytruda-v228:1-classicalhodgkinlymphoma:p1",
+    "sectionId": "keytruda-v228:1-classicalhodgkinlymphoma",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:14-gastriccancer:p9",
+      "keytruda-v228:6-clinicaltrialsexperience:p5",
+      "keytruda-v228:8-pediatricuse:p3"
+    ],
+    "retrievalHit": false,
+    "rulesSupported": false,
+    "retrievalSupported": false,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "contradiction",
+      "scores": {
+        "contradiction": 0.8795980510615062,
+        "entailment": 0.000346601681216185,
+        "neutral": 0.12005534725727769
+      },
+      "elapsedMs": 19,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-13368283",
+      "evidenceId": "keytruda-v228:14-gastriccancer:p9"
+    },
+    "issues": [
+      {
+        "kind": "unsupported",
+        "title": "Unsubstantiated assertion",
+        "detail": "An absolute, comparative or curative assertion needs specific supporting evidence. A matching word or source citation is insufficient."
+      }
+    ]
+  },
+  {
+    "id": "PE-06-5",
+    "family": "F06",
+    "split": "development",
+    "product": "keytruda",
+    "claim": "KEYTRUDA is indicated for the treatment of adult patients with relapsed or refractory classical Hodgkin lymphoma (cHL) and is superior to all alternative medicines.",
+    "supported": false,
+    "kind": "unsupported-comparison",
+    "evidenceId": "keytruda-v228:1-classicalhodgkinlymphoma:p1",
+    "sectionId": "keytruda-v228:1-classicalhodgkinlymphoma",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:1-classicalhodgkinlymphoma:p1",
+      "keytruda-v228:1-primarymediastinallargebcelllymphoma:p1",
+      "keytruda-v228:1-classicalhodgkinlymphoma:p2"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": false,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "neutral",
+      "scores": {
+        "contradiction": 0.0016029793863492447,
+        "entailment": 0.00046779814553851853,
+        "neutral": 0.9979292224681123
+      },
+      "elapsedMs": 22,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-e0861a1a",
+      "evidenceId": "keytruda-v228:1-primarymediastinallargebcelllymphoma:p1"
+    },
+    "issues": [
+      {
+        "kind": "unsupported",
+        "title": "Unsubstantiated assertion",
+        "detail": "An absolute, comparative or curative assertion needs specific supporting evidence. A matching word or source citation is insufficient."
+      }
+    ]
+  },
+  {
+    "id": "PE-06-6",
+    "family": "F06",
+    "split": "development",
+    "product": "keytruda",
+    "claim": "KEYTRUDA is indicated for the treatment of adult patients with relapsed or refractory classical Hodgkin lymphoma (cHL) and guarantees a complete cure without any adverse reactions.",
+    "supported": false,
+    "kind": "unsupported-guarantee",
+    "evidenceId": "keytruda-v228:1-classicalhodgkinlymphoma:p1",
+    "sectionId": "keytruda-v228:1-classicalhodgkinlymphoma",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:1-classicalhodgkinlymphoma:p1",
+      "keytruda-v228:1-primarymediastinallargebcelllymphoma:p1",
+      "keytruda-v228:1-classicalhodgkinlymphoma:p2"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": false,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "neutral",
+      "scores": {
+        "contradiction": 0.0015154172256229559,
+        "entailment": 0.00046507496317188,
+        "neutral": 0.9980195078112052
+      },
+      "elapsedMs": 23,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-30c68261",
+      "evidenceId": "keytruda-v228:1-classicalhodgkinlymphoma:p1"
+    },
+    "issues": [
+      {
+        "kind": "unsupported",
+        "title": "Unsubstantiated assertion",
+        "detail": "An absolute, comparative or curative assertion needs specific supporting evidence. A matching word or source citation is insufficient."
+      }
+    ]
+  },
+  {
+    "id": "PE-07-1",
+    "family": "F07",
+    "split": "holdout",
+    "product": "winrevair",
+    "claim": "After verifying acceptable Hgb and platelet count, increase to the target dose of 0.7 mg/kg.",
+    "supported": true,
+    "kind": "source-exact",
+    "evidenceId": "winrevair-v13:2-recommendedtargetdosage:p1",
+    "sectionId": "winrevair-v13:2-recommendedtargetdosage",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "winrevair-v13:2-recommendedtargetdosage:p1",
+      "winrevair-v13:2-dosagemodificationsduetohemoglobinincreaseorplateletcountdecrease:p9",
+      "winrevair-v13:2-recommendedtargetdosage:p4"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": true,
+    "combinedSupported": true,
+    "neural": {
+      "label": "entailment",
+      "scores": {
+        "contradiction": 0.0005625100820019563,
+        "entailment": 0.9943750021779505,
+        "neutral": 0.005062487740047576
+      },
+      "elapsedMs": 20,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-3f134e51",
+      "evidenceId": "winrevair-v13:2-dosagemodificationsduetohemoglobinincreaseorplateletcountdecrease:p9"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-07-2",
+    "family": "F07",
+    "split": "holdout",
+    "product": "winrevair",
+    "claim": "After acceptable Hgb and platelet counts are verified, the WINREVAIR target dose is increased to 0.7 mg/kg.",
+    "supported": true,
+    "kind": "paraphrase",
+    "evidenceId": "winrevair-v13:2-recommendedtargetdosage:p1",
+    "sectionId": "winrevair-v13:2-recommendedtargetdosage",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "winrevair-v13:2-recommendedtargetdosage:p1",
+      "winrevair-v13:2-dosagemodificationsduetohemoglobinincreaseorplateletcountdecrease:p9",
+      "winrevair-v13:2-recommendedtargetdosage:p4"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": true,
+    "combinedSupported": true,
+    "neural": {
+      "label": "entailment",
+      "scores": {
+        "contradiction": 0.0006605231144115604,
+        "entailment": 0.9812336751689579,
+        "neutral": 0.018105801716630402
+      },
+      "elapsedMs": 21,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-ac3f2213",
+      "evidenceId": "winrevair-v13:2-dosagemodificationsduetohemoglobinincreaseorplateletcountdecrease:p9"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-07-3",
+    "family": "F07",
+    "split": "holdout",
+    "product": "winrevair",
+    "claim": "After acceptable Hgb and platelet counts are verified, the WINREVAIR target dose is increased to 7 mg/kg.",
+    "supported": false,
+    "kind": "mutation-1",
+    "evidenceId": "winrevair-v13:2-recommendedtargetdosage:p1",
+    "sectionId": "winrevair-v13:2-recommendedtargetdosage",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "winrevair-v13:2-recommendedtargetdosage:p1",
+      "winrevair-v13:2-dosagemodificationsduetohemoglobinincreaseorplateletcountdecrease:p9",
+      "winrevair-v13:6-clinicaltrialsexperience:p4"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": false,
+    "retrievalSupported": true,
+    "neuralSupported": true,
+    "combinedSupported": false,
+    "neural": {
+      "label": "entailment",
+      "scores": {
+        "contradiction": 0.001360429607156813,
+        "entailment": 0.9827156692217011,
+        "neutral": 0.01592390117114201
+      },
+      "elapsedMs": 20,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-703d6ee5",
+      "evidenceId": "winrevair-v13:2-dosagemodificationsduetohemoglobinincreaseorplateletcountdecrease:p9"
+    },
+    "issues": [
+      {
+        "kind": "numeric",
+        "title": "Dose differs from the source",
+        "detail": "The selected reference states a starting dose of 0.3 mg/kg and a target dose of 0.7 mg/kg, subject to its monitoring and escalation conditions."
+      }
+    ]
+  },
+  {
+    "id": "PE-07-4",
+    "family": "F07",
+    "split": "holdout",
+    "product": "winrevair",
+    "claim": "WINREVAIR should be increased to 0.7 mg/kg without checking Hgb or platelets.",
+    "supported": false,
+    "kind": "mutation-2",
+    "evidenceId": "winrevair-v13:2-recommendedtargetdosage:p1",
+    "sectionId": "winrevair-v13:2-recommendedtargetdosage",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "winrevair-v13:2-recommendedtargetdosage:p1",
+      "winrevair-v13:2-dosagemodificationsduetohemoglobinincreaseorplateletcountdecrease:p9",
+      "winrevair-v13:6-clinicaltrialsexperience:p4"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "contradiction",
+      "scores": {
+        "contradiction": 0.9956045857357193,
+        "entailment": 0.001513571613403512,
+        "neutral": 0.0028818426508770614
+      },
+      "elapsedMs": 20,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-d7178203",
+      "evidenceId": "winrevair-v13:2-dosagemodificationsduetohemoglobinincreaseorplateletcountdecrease:p9"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-07-5",
+    "family": "F07",
+    "split": "holdout",
+    "product": "winrevair",
+    "claim": "After verifying acceptable Hgb and platelet count, increase to the target dose of 0.7 mg/kg and is superior to all alternative medicines.",
+    "supported": false,
+    "kind": "unsupported-comparison",
+    "evidenceId": "winrevair-v13:2-recommendedtargetdosage:p1",
+    "sectionId": "winrevair-v13:2-recommendedtargetdosage",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "winrevair-v13:2-recommendedtargetdosage:p1",
+      "winrevair-v13:2-dosagemodificationsduetohemoglobinincreaseorplateletcountdecrease:p9",
+      "winrevair-v13:2-recommendedtargetdosage:p4"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": false,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "neutral",
+      "scores": {
+        "contradiction": 0.0007680988130905011,
+        "entailment": 0.0010883449146420923,
+        "neutral": 0.9981435562722675
+      },
+      "elapsedMs": 26,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-89156619",
+      "evidenceId": "winrevair-v13:2-dosagemodificationsduetohemoglobinincreaseorplateletcountdecrease:p9"
+    },
+    "issues": [
+      {
+        "kind": "unsupported",
+        "title": "Unsubstantiated assertion",
+        "detail": "An absolute, comparative or curative assertion needs specific supporting evidence. A matching word or source citation is insufficient."
+      }
+    ]
+  },
+  {
+    "id": "PE-07-6",
+    "family": "F07",
+    "split": "holdout",
+    "product": "winrevair",
+    "claim": "After verifying acceptable Hgb and platelet count, increase to the target dose of 0.7 mg/kg and guarantees a complete cure without any adverse reactions.",
+    "supported": false,
+    "kind": "unsupported-guarantee",
+    "evidenceId": "winrevair-v13:2-recommendedtargetdosage:p1",
+    "sectionId": "winrevair-v13:2-recommendedtargetdosage",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "winrevair-v13:2-recommendedtargetdosage:p1",
+      "winrevair-v13:2-dosagemodificationsduetohemoglobinincreaseorplateletcountdecrease:p9",
+      "winrevair-v13:2-recommendedtargetdosage:p4"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": false,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "neutral",
+      "scores": {
+        "contradiction": 0.0013712500206263338,
+        "entailment": 0.0007307995188529867,
+        "neutral": 0.9978979504605208
+      },
+      "elapsedMs": 21,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-212ae18e",
+      "evidenceId": "winrevair-v13:2-dosagemodificationsduetohemoglobinincreaseorplateletcountdecrease:p9"
+    },
+    "issues": [
+      {
+        "kind": "unsupported",
+        "title": "Unsubstantiated assertion",
+        "detail": "An absolute, comparative or curative assertion needs specific supporting evidence. A matching word or source citation is insufficient."
+      }
+    ]
+  },
+  {
+    "id": "PE-08-1",
+    "family": "F08",
+    "split": "development",
+    "product": "keytruda",
+    "claim": "KEYTRUDA is indicated for the treatment of adult and pediatric patients with refractory primary mediastinal large B-cell lymphoma (PMBCL), or who have relapsed after 2 or more prior lines of therapy.",
+    "supported": true,
+    "kind": "source-exact",
+    "evidenceId": "keytruda-v228:1-primarymediastinallargebcelllymphoma:p1",
+    "sectionId": "keytruda-v228:1-primarymediastinallargebcelllymphoma",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:1-primarymediastinallargebcelllymphoma:p1",
+      "keytruda-v228:1-classicalhodgkinlymphoma:p2",
+      "keytruda-v228:1-classicalhodgkinlymphoma:p1"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": true,
+    "combinedSupported": true,
+    "neural": {
+      "label": "entailment",
+      "scores": {
+        "contradiction": 0.004094964632692939,
+        "entailment": 0.9859105637418869,
+        "neutral": 0.009994471625419974
+      },
+      "elapsedMs": 28,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-a07c9838",
+      "evidenceId": "keytruda-v228:1-primarymediastinallargebcelllymphoma:p1"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-08-2",
+    "family": "F08",
+    "split": "development",
+    "product": "keytruda",
+    "claim": "KEYTRUDA is indicated for adult and pediatric patients with refractory PMBCL, or relapse after at least two prior treatment lines.",
+    "supported": true,
+    "kind": "paraphrase",
+    "evidenceId": "keytruda-v228:1-primarymediastinallargebcelllymphoma:p1",
+    "sectionId": "keytruda-v228:1-primarymediastinallargebcelllymphoma",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:1-primarymediastinallargebcelllymphoma:p1",
+      "keytruda-v228:1-classicalhodgkinlymphoma:p2",
+      "keytruda-v228:14-classicalhodgkinlymphoma:p7"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": true,
+    "combinedSupported": true,
+    "neural": {
+      "label": "entailment",
+      "scores": {
+        "contradiction": 0.0006390568614542773,
+        "entailment": 0.9956882505582189,
+        "neutral": 0.003672692580326911
+      },
+      "elapsedMs": 22,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-855c632f",
+      "evidenceId": "keytruda-v228:1-primarymediastinallargebcelllymphoma:p1"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-08-3",
+    "family": "F08",
+    "split": "development",
+    "product": "keytruda",
+    "claim": "KEYTRUDA is indicated for every newly diagnosed PMBCL patient before any prior treatment.",
+    "supported": false,
+    "kind": "mutation-1",
+    "evidenceId": "keytruda-v228:1-primarymediastinallargebcelllymphoma:p1",
+    "sectionId": "keytruda-v228:1-primarymediastinallargebcelllymphoma",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:1-primarymediastinallargebcelllymphoma:p1",
+      "keytruda-v228:14-endometrialcarcinoma:p64",
+      "keytruda-v228:1-endometrialcarcinoma:p3"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "contradiction",
+      "scores": {
+        "contradiction": 0.9807330424119652,
+        "entailment": 0.0007592332011607909,
+        "neutral": 0.01850772438687407
+      },
+      "elapsedMs": 20,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-f6753c3e",
+      "evidenceId": "keytruda-v228:14-endometrialcarcinoma:p64"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-08-4",
+    "family": "F08",
+    "split": "development",
+    "product": "keytruda",
+    "claim": "KEYTRUDA is indicated for PMBCL only in adults and is never indicated in pediatric patients.",
+    "supported": false,
+    "kind": "mutation-2",
+    "evidenceId": "keytruda-v228:1-primarymediastinallargebcelllymphoma:p1",
+    "sectionId": "keytruda-v228:1-primarymediastinallargebcelllymphoma",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:1-primarymediastinallargebcelllymphoma:p1",
+      "keytruda-v228:1-classicalhodgkinlymphoma:p2",
+      "keytruda-v228:1-merkelcellcarcinoma:p1"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "contradiction",
+      "scores": {
+        "contradiction": 0.9986408439467834,
+        "entailment": 0.00012306871453384731,
+        "neutral": 0.0012360873386826564
+      },
+      "elapsedMs": 21,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-47355180",
+      "evidenceId": "keytruda-v228:1-classicalhodgkinlymphoma:p2"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-08-5",
+    "family": "F08",
+    "split": "development",
+    "product": "keytruda",
+    "claim": "KEYTRUDA is indicated for the treatment of adult and pediatric patients with refractory primary mediastinal large B-cell lymphoma (PMBCL), or who have relapsed after 2 or more prior lines of therapy and is superior to all alternative medicines.",
+    "supported": false,
+    "kind": "unsupported-comparison",
+    "evidenceId": "keytruda-v228:1-primarymediastinallargebcelllymphoma:p1",
+    "sectionId": "keytruda-v228:1-primarymediastinallargebcelllymphoma",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:1-primarymediastinallargebcelllymphoma:p1",
+      "keytruda-v228:1-classicalhodgkinlymphoma:p2",
+      "keytruda-v228:1-classicalhodgkinlymphoma:p1"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": false,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "neutral",
+      "scores": {
+        "contradiction": 0.004705545063472086,
+        "entailment": 0.00033883349840977306,
+        "neutral": 0.994955621438118
+      },
+      "elapsedMs": 26,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-ddd7ecf2",
+      "evidenceId": "keytruda-v228:1-classicalhodgkinlymphoma:p2"
+    },
+    "issues": [
+      {
+        "kind": "unsupported",
+        "title": "Unsubstantiated assertion",
+        "detail": "An absolute, comparative or curative assertion needs specific supporting evidence. A matching word or source citation is insufficient."
+      }
+    ]
+  },
+  {
+    "id": "PE-08-6",
+    "family": "F08",
+    "split": "development",
+    "product": "keytruda",
+    "claim": "KEYTRUDA is indicated for the treatment of adult and pediatric patients with refractory primary mediastinal large B-cell lymphoma (PMBCL), or who have relapsed after 2 or more prior lines of therapy and guarantees a complete cure without any adverse reactions.",
+    "supported": false,
+    "kind": "unsupported-guarantee",
+    "evidenceId": "keytruda-v228:1-primarymediastinallargebcelllymphoma:p1",
+    "sectionId": "keytruda-v228:1-primarymediastinallargebcelllymphoma",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:1-primarymediastinallargebcelllymphoma:p1",
+      "keytruda-v228:1-classicalhodgkinlymphoma:p2",
+      "keytruda-v228:1-classicalhodgkinlymphoma:p1"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": false,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "neutral",
+      "scores": {
+        "contradiction": 0.04854720697143438,
+        "entailment": 0.00028235202252337085,
+        "neutral": 0.9511704410060423
+      },
+      "elapsedMs": 30,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-9dd0a429",
+      "evidenceId": "keytruda-v228:1-classicalhodgkinlymphoma:p2"
+    },
+    "issues": [
+      {
+        "kind": "unsupported",
+        "title": "Unsubstantiated assertion",
+        "detail": "An absolute, comparative or curative assertion needs specific supporting evidence. A matching word or source citation is insufficient."
+      }
+    ]
+  },
+  {
+    "id": "PE-09-1",
+    "family": "F09",
+    "split": "holdout",
+    "product": "winrevair",
+    "claim": "WINREVAIR is contraindicated in patients with serious hypersensitivity (i.e., anaphylaxis, angioedema) to sotatercept-csrk or any of its excipients [see Warnings and Precautions (5.1) ].",
+    "supported": true,
+    "kind": "source-exact",
+    "evidenceId": "winrevair-v13:4-hypersensitivity:p1",
+    "sectionId": "winrevair-v13:4-hypersensitivity",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "winrevair-v13:4-hypersensitivity:p1",
+      "winrevair-v13:6-adversereactions:p2",
+      "winrevair-v13:6-postmarketingexperience:p3"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": true,
+    "combinedSupported": true,
+    "neural": {
+      "label": "entailment",
+      "scores": {
+        "contradiction": 0.0011794325747342931,
+        "entailment": 0.9933514575940154,
+        "neutral": 0.00546910983125025
+      },
+      "elapsedMs": 34,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-753aacb1",
+      "evidenceId": "winrevair-v13:4-hypersensitivity:p1"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-09-2",
+    "family": "F09",
+    "split": "holdout",
+    "product": "winrevair",
+    "claim": "WINREVAIR is contraindicated in patients with serious hypersensitivity to sotatercept-csrk or its excipients.",
+    "supported": true,
+    "kind": "paraphrase",
+    "evidenceId": "winrevair-v13:4-hypersensitivity:p1",
+    "sectionId": "winrevair-v13:4-hypersensitivity",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "winrevair-v13:4-hypersensitivity:p1",
+      "winrevair-v13:5-hypersensitivity:p1",
+      "winrevair-v13:5-hypersensitivity:p2"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": true,
+    "combinedSupported": true,
+    "neural": {
+      "label": "entailment",
+      "scores": {
+        "contradiction": 0.0006075485692714034,
+        "entailment": 0.9953579711994948,
+        "neutral": 0.0040344802312338056
+      },
+      "elapsedMs": 22,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-fb886346",
+      "evidenceId": "winrevair-v13:4-hypersensitivity:p1"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-09-3",
+    "family": "F09",
+    "split": "holdout",
+    "product": "winrevair",
+    "claim": "WINREVAIR has no contraindications.",
+    "supported": false,
+    "kind": "mutation-1",
+    "evidenceId": "winrevair-v13:4-hypersensitivity:p1",
+    "sectionId": "winrevair-v13:4-hypersensitivity",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [],
+    "retrievalHit": false,
+    "rulesSupported": false,
+    "retrievalSupported": false,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": null,
+    "issues": [
+      {
+        "kind": "stale",
+        "title": "Contraindications changed",
+        "detail": "The historical label states “None.” The current source includes serious hypersensitivity. The reference is no longer current for this claim."
+      },
+      {
+        "kind": "unsupported",
+        "title": "No relevant passage retrieved",
+        "detail": "No sufficiently overlapping passage was found in the pinned two-product corpus. Broader evidence may exist outside this dataset."
+      }
+    ]
+  },
+  {
+    "id": "PE-09-4",
+    "family": "F09",
+    "split": "holdout",
+    "product": "winrevair",
+    "claim": "WINREVAIR is recommended for patients with anaphylaxis to sotatercept-csrk.",
+    "supported": false,
+    "kind": "mutation-2",
+    "evidenceId": "winrevair-v13:4-hypersensitivity:p1",
+    "sectionId": "winrevair-v13:4-hypersensitivity",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "winrevair-v13:12-pharmacokinetics:p16",
+      "winrevair-v13:12-immunogenicity:p9",
+      "winrevair-v13:4-hypersensitivity:p1"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "neutral",
+      "scores": {
+        "contradiction": 0.05277509104137028,
+        "entailment": 0.007483335702051759,
+        "neutral": 0.939741573256578
+      },
+      "elapsedMs": 22,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-5e99299b",
+      "evidenceId": "winrevair-v13:12-immunogenicity:p9"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-09-5",
+    "family": "F09",
+    "split": "holdout",
+    "product": "winrevair",
+    "claim": "WINREVAIR is contraindicated in patients with serious hypersensitivity (i.e., anaphylaxis, angioedema) to sotatercept-csrk or any of its excipients [see Warnings and Precautions (5.1) ] and is superior to all alternative medicines.",
+    "supported": false,
+    "kind": "unsupported-comparison",
+    "evidenceId": "winrevair-v13:4-hypersensitivity:p1",
+    "sectionId": "winrevair-v13:4-hypersensitivity",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "winrevair-v13:4-hypersensitivity:p1",
+      "winrevair-v13:6-adversereactions:p2",
+      "winrevair-v13:6-postmarketingexperience:p3"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": false,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "contradiction",
+      "scores": {
+        "contradiction": 0.9687821273635369,
+        "entailment": 0.00038198626227440273,
+        "neutral": 0.030835886374188645
+      },
+      "elapsedMs": 33,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-4dc9ed79",
+      "evidenceId": "winrevair-v13:6-adversereactions:p2"
+    },
+    "issues": [
+      {
+        "kind": "unsupported",
+        "title": "Unsubstantiated assertion",
+        "detail": "An absolute, comparative or curative assertion needs specific supporting evidence. A matching word or source citation is insufficient."
+      }
+    ]
+  },
+  {
+    "id": "PE-09-6",
+    "family": "F09",
+    "split": "holdout",
+    "product": "winrevair",
+    "claim": "WINREVAIR is contraindicated in patients with serious hypersensitivity (i.e., anaphylaxis, angioedema) to sotatercept-csrk or any of its excipients [see Warnings and Precautions (5.1) ] and guarantees a complete cure without any adverse reactions.",
+    "supported": false,
+    "kind": "unsupported-guarantee",
+    "evidenceId": "winrevair-v13:4-hypersensitivity:p1",
+    "sectionId": "winrevair-v13:4-hypersensitivity",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "winrevair-v13:4-hypersensitivity:p1",
+      "winrevair-v13:6-adversereactions:p2",
+      "winrevair-v13:6-postmarketingexperience:p3"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": false,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "neutral",
+      "scores": {
+        "contradiction": 0.011771464622111438,
+        "entailment": 0.0003013091567290868,
+        "neutral": 0.9879272262211594
+      },
+      "elapsedMs": 36,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-8ddf766e",
+      "evidenceId": "winrevair-v13:4-hypersensitivity:p1"
+    },
+    "issues": [
+      {
+        "kind": "unsupported",
+        "title": "Unsubstantiated assertion",
+        "detail": "An absolute, comparative or curative assertion needs specific supporting evidence. A matching word or source citation is insufficient."
+      }
+    ]
+  },
+  {
+    "id": "PE-10-1",
+    "family": "F10",
+    "split": "development",
+    "product": "keytruda",
+    "claim": "KEYTRUDA is indicated for the treatment of adult and pediatric patients with recurrent locally advanced or metastatic Merkel cell carcinoma (MCC).",
+    "supported": true,
+    "kind": "source-exact",
+    "evidenceId": "keytruda-v228:1-merkelcellcarcinoma:p1",
+    "sectionId": "keytruda-v228:1-merkelcellcarcinoma",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:1-merkelcellcarcinoma:p1",
+      "keytruda-v228:1-cutaneoussquamouscellcarcinoma:p1",
+      "keytruda-v228:1-renalcellcarcinoma:p1"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": true,
+    "combinedSupported": true,
+    "neural": {
+      "label": "entailment",
+      "scores": {
+        "contradiction": 0.004836509586825193,
+        "entailment": 0.983164179998385,
+        "neutral": 0.01199931041478982
+      },
+      "elapsedMs": 25,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-c6ab99f5",
+      "evidenceId": "keytruda-v228:1-merkelcellcarcinoma:p1"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-10-2",
+    "family": "F10",
+    "split": "development",
+    "product": "keytruda",
+    "claim": "KEYTRUDA is indicated for adults and children with recurrent locally advanced or metastatic Merkel cell carcinoma.",
+    "supported": true,
+    "kind": "paraphrase",
+    "evidenceId": "keytruda-v228:1-merkelcellcarcinoma:p1",
+    "sectionId": "keytruda-v228:1-merkelcellcarcinoma",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:1-merkelcellcarcinoma:p1",
+      "keytruda-v228:1-cutaneoussquamouscellcarcinoma:p1",
+      "keytruda-v228:1-urothelialcancer:p2"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": true,
+    "combinedSupported": true,
+    "neural": {
+      "label": "entailment",
+      "scores": {
+        "contradiction": 0.0010713285614307516,
+        "entailment": 0.9913144308994999,
+        "neutral": 0.00761424053906951
+      },
+      "elapsedMs": 341,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-6e7d692e",
+      "evidenceId": "keytruda-v228:1-merkelcellcarcinoma:p1"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-10-3",
+    "family": "F10",
+    "split": "development",
+    "product": "keytruda",
+    "claim": "KEYTRUDA is not indicated for any patients with metastatic Merkel cell carcinoma.",
+    "supported": false,
+    "kind": "mutation-1",
+    "evidenceId": "keytruda-v228:1-merkelcellcarcinoma:p1",
+    "sectionId": "keytruda-v228:1-merkelcellcarcinoma",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:1-merkelcellcarcinoma:p1",
+      "keytruda-v228:1-cutaneoussquamouscellcarcinoma:p1",
+      "keytruda-v228:1-headandnecksquamouscellcancer:p2"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "contradiction",
+      "scores": {
+        "contradiction": 0.9988542483593521,
+        "entailment": 0.00014823877414740018,
+        "neutral": 0.0009975128665004609
+      },
+      "elapsedMs": 386,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-ab9e6d37",
+      "evidenceId": "keytruda-v228:1-cutaneoussquamouscellcarcinoma:p1"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-10-4",
+    "family": "F10",
+    "split": "development",
+    "product": "keytruda",
+    "claim": "KEYTRUDA cures every patient with Merkel cell carcinoma.",
+    "supported": false,
+    "kind": "mutation-2",
+    "evidenceId": "keytruda-v228:1-merkelcellcarcinoma:p1",
+    "sectionId": "keytruda-v228:1-merkelcellcarcinoma",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:1-merkelcellcarcinoma:p1",
+      "keytruda-v228:14-endometrialcarcinoma:p21",
+      "keytruda-v228:14-endometrialcarcinoma:p46"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": false,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "neutral",
+      "scores": {
+        "contradiction": 0.2572395683912018,
+        "entailment": 0.0012947542786238373,
+        "neutral": 0.7414656773301742
+      },
+      "elapsedMs": 334,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-6542a465",
+      "evidenceId": "keytruda-v228:1-merkelcellcarcinoma:p1"
+    },
+    "issues": [
+      {
+        "kind": "unsupported",
+        "title": "Unsubstantiated assertion",
+        "detail": "An absolute, comparative or curative assertion needs specific supporting evidence. A matching word or source citation is insufficient."
+      }
+    ]
+  },
+  {
+    "id": "PE-10-5",
+    "family": "F10",
+    "split": "development",
+    "product": "keytruda",
+    "claim": "KEYTRUDA is indicated for the treatment of adult and pediatric patients with recurrent locally advanced or metastatic Merkel cell carcinoma (MCC) and is superior to all alternative medicines.",
+    "supported": false,
+    "kind": "unsupported-comparison",
+    "evidenceId": "keytruda-v228:1-merkelcellcarcinoma:p1",
+    "sectionId": "keytruda-v228:1-merkelcellcarcinoma",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:1-merkelcellcarcinoma:p1",
+      "keytruda-v228:1-cutaneoussquamouscellcarcinoma:p1",
+      "keytruda-v228:1-renalcellcarcinoma:p1"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": false,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "neutral",
+      "scores": {
+        "contradiction": 0.001674891194999948,
+        "entailment": 0.0004935170872466784,
+        "neutral": 0.9978315917177534
+      },
+      "elapsedMs": 644,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-162f2add",
+      "evidenceId": "keytruda-v228:1-cutaneoussquamouscellcarcinoma:p1"
+    },
+    "issues": [
+      {
+        "kind": "unsupported",
+        "title": "Unsubstantiated assertion",
+        "detail": "An absolute, comparative or curative assertion needs specific supporting evidence. A matching word or source citation is insufficient."
+      }
+    ]
+  },
+  {
+    "id": "PE-10-6",
+    "family": "F10",
+    "split": "development",
+    "product": "keytruda",
+    "claim": "KEYTRUDA is indicated for the treatment of adult and pediatric patients with recurrent locally advanced or metastatic Merkel cell carcinoma (MCC) and guarantees a complete cure without any adverse reactions.",
+    "supported": false,
+    "kind": "unsupported-guarantee",
+    "evidenceId": "keytruda-v228:1-merkelcellcarcinoma:p1",
+    "sectionId": "keytruda-v228:1-merkelcellcarcinoma",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:1-merkelcellcarcinoma:p1",
+      "keytruda-v228:1-cutaneoussquamouscellcarcinoma:p1",
+      "keytruda-v228:1-renalcellcarcinoma:p1"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": false,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "contradiction",
+      "scores": {
+        "contradiction": 0.6029652902853074,
+        "entailment": 0.00044386089491659344,
+        "neutral": 0.396590848819776
+      },
+      "elapsedMs": 509,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-534b367a",
+      "evidenceId": "keytruda-v228:1-cutaneoussquamouscellcarcinoma:p1"
+    },
+    "issues": [
+      {
+        "kind": "unsupported",
+        "title": "Unsubstantiated assertion",
+        "detail": "An absolute, comparative or curative assertion needs specific supporting evidence. A matching word or source citation is insufficient."
+      }
+    ]
+  },
+  {
+    "id": "PE-11-1",
+    "family": "F11",
+    "split": "development",
+    "product": "winrevair",
+    "claim": "WINREVAIR may increase hemoglobin.",
+    "supported": true,
+    "kind": "source-exact",
+    "evidenceId": "winrevair-v13:5-erythrocytosis:p1",
+    "sectionId": "winrevair-v13:5-erythrocytosis",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "winrevair-v13:5-erythrocytosis:p1"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": true,
+    "combinedSupported": true,
+    "neural": {
+      "label": "entailment",
+      "scores": {
+        "contradiction": 0.0006950264850788799,
+        "entailment": 0.9950506235254273,
+        "neutral": 0.0042543499894938655
+      },
+      "elapsedMs": 123,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-d5721f4d",
+      "evidenceId": "winrevair-v13:5-erythrocytosis:p1"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-11-2",
+    "family": "F11",
+    "split": "development",
+    "product": "winrevair",
+    "claim": "WINREVAIR can increase hemoglobin.",
+    "supported": true,
+    "kind": "paraphrase",
+    "evidenceId": "winrevair-v13:5-erythrocytosis:p1",
+    "sectionId": "winrevair-v13:5-erythrocytosis",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "winrevair-v13:5-erythrocytosis:p1"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": true,
+    "combinedSupported": true,
+    "neural": {
+      "label": "entailment",
+      "scores": {
+        "contradiction": 0.00031925947698595476,
+        "entailment": 0.9952316367608014,
+        "neutral": 0.0044491037622127255
+      },
+      "elapsedMs": 107,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-dc791644",
+      "evidenceId": "winrevair-v13:5-erythrocytosis:p1"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-11-3",
+    "family": "F11",
+    "split": "development",
+    "product": "winrevair",
+    "claim": "WINREVAIR can never increase hemoglobin.",
+    "supported": false,
+    "kind": "mutation-1",
+    "evidenceId": "winrevair-v13:5-erythrocytosis:p1",
+    "sectionId": "winrevair-v13:5-erythrocytosis",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "winrevair-v13:5-erythrocytosis:p1"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "contradiction",
+      "scores": {
+        "contradiction": 0.999302771318274,
+        "entailment": 0.00007211806198781678,
+        "neutral": 0.000625110619738208
+      },
+      "elapsedMs": 99,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-8e29eeaa",
+      "evidenceId": "winrevair-v13:5-erythrocytosis:p1"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-11-4",
+    "family": "F11",
+    "split": "development",
+    "product": "winrevair",
+    "claim": "WINREVAIR always lowers hemoglobin and eliminates thromboembolic risk.",
+    "supported": false,
+    "kind": "mutation-2",
+    "evidenceId": "winrevair-v13:5-erythrocytosis:p1",
+    "sectionId": "winrevair-v13:5-erythrocytosis",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "winrevair-v13:5-erythrocytosis:p2"
+    ],
+    "retrievalHit": false,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "contradiction",
+      "scores": {
+        "contradiction": 0.9988701650601745,
+        "entailment": 0.00005776015193066854,
+        "neutral": 0.0010720747878949389
+      },
+      "elapsedMs": 175,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-83ec33fe",
+      "evidenceId": "winrevair-v13:5-erythrocytosis:p2"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-11-5",
+    "family": "F11",
+    "split": "development",
+    "product": "winrevair",
+    "claim": "WINREVAIR may increase hemoglobin and is superior to all alternative medicines.",
+    "supported": false,
+    "kind": "unsupported-comparison",
+    "evidenceId": "winrevair-v13:5-erythrocytosis:p1",
+    "sectionId": "winrevair-v13:5-erythrocytosis",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "winrevair-v13:5-erythrocytosis:p1",
+      "winrevair-v13:14-pulmonaryarterialhypertension:p67"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": false,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "neutral",
+      "scores": {
+        "contradiction": 0.010674940633965171,
+        "entailment": 0.0015630106190635763,
+        "neutral": 0.9877620487469712
+      },
+      "elapsedMs": 569,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-c59ba245",
+      "evidenceId": "winrevair-v13:14-pulmonaryarterialhypertension:p67"
+    },
+    "issues": [
+      {
+        "kind": "unsupported",
+        "title": "Unsubstantiated assertion",
+        "detail": "An absolute, comparative or curative assertion needs specific supporting evidence. A matching word or source citation is insufficient."
+      }
+    ]
+  },
+  {
+    "id": "PE-11-6",
+    "family": "F11",
+    "split": "development",
+    "product": "winrevair",
+    "claim": "WINREVAIR may increase hemoglobin and guarantees a complete cure without any adverse reactions.",
+    "supported": false,
+    "kind": "unsupported-guarantee",
+    "evidenceId": "winrevair-v13:5-erythrocytosis:p1",
+    "sectionId": "winrevair-v13:5-erythrocytosis",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "winrevair-v13:5-erythrocytosis:p1",
+      "winrevair-v13:6-clinicaltrialsexperience:p34",
+      "winrevair-v13:6-adversereactions:p1"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": false,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "contradiction",
+      "scores": {
+        "contradiction": 0.8857548526705341,
+        "entailment": 0.0005354160414014412,
+        "neutral": 0.11370973128806453
+      },
+      "elapsedMs": 430,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-35c0af2",
+      "evidenceId": "winrevair-v13:6-clinicaltrialsexperience:p34"
+    },
+    "issues": [
+      {
+        "kind": "unsupported",
+        "title": "Unsubstantiated assertion",
+        "detail": "An absolute, comparative or curative assertion needs specific supporting evidence. A matching word or source citation is insufficient."
+      }
+    ]
+  },
+  {
+    "id": "PE-12-1",
+    "family": "F12",
+    "split": "holdout",
+    "product": "keytruda",
+    "claim": "KEYTRUDA, in combination with axitinib, is indicated for the first-line treatment of adult patients with advanced renal cell carcinoma (RCC).",
+    "supported": true,
+    "kind": "source-exact",
+    "evidenceId": "keytruda-v228:1-renalcellcarcinoma:p1",
+    "sectionId": "keytruda-v228:1-renalcellcarcinoma",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:1-renalcellcarcinoma:p1",
+      "keytruda-v228:1-renalcellcarcinoma:p2",
+      "keytruda-v228:1-headandnecksquamouscellcancer:p2"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": true,
+    "combinedSupported": true,
+    "neural": {
+      "label": "entailment",
+      "scores": {
+        "contradiction": 0.004147889538140354,
+        "entailment": 0.9853579735351264,
+        "neutral": 0.010494136926733117
+      },
+      "elapsedMs": 492,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-dfba0687",
+      "evidenceId": "keytruda-v228:1-renalcellcarcinoma:p1"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-12-2",
+    "family": "F12",
+    "split": "holdout",
+    "product": "keytruda",
+    "claim": "KEYTRUDA in combination with axitinib is indicated as first-line treatment for adults with advanced RCC.",
+    "supported": true,
+    "kind": "paraphrase",
+    "evidenceId": "keytruda-v228:1-renalcellcarcinoma:p1",
+    "sectionId": "keytruda-v228:1-renalcellcarcinoma",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:1-renalcellcarcinoma:p1",
+      "keytruda-v228:1-renalcellcarcinoma:p2",
+      "keytruda-v228:1-malignantpleuralmesothelioma:p1"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": true,
+    "combinedSupported": true,
+    "neural": {
+      "label": "entailment",
+      "scores": {
+        "contradiction": 0.0006947624074897826,
+        "entailment": 0.9962831424785813,
+        "neutral": 0.0030220951139289087
+      },
+      "elapsedMs": 439,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-66d5eab4",
+      "evidenceId": "keytruda-v228:1-renalcellcarcinoma:p1"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-12-3",
+    "family": "F12",
+    "split": "holdout",
+    "product": "keytruda",
+    "claim": "KEYTRUDA alone is indicated as first-line treatment for all children with localized renal cell carcinoma.",
+    "supported": false,
+    "kind": "mutation-1",
+    "evidenceId": "keytruda-v228:1-renalcellcarcinoma:p1",
+    "sectionId": "keytruda-v228:1-renalcellcarcinoma",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:1-renalcellcarcinoma:p1",
+      "keytruda-v228:1-headandnecksquamouscellcancer:p2",
+      "keytruda-v228:1-nonsmallcelllungcancer:p1"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "contradiction",
+      "scores": {
+        "contradiction": 0.9966232277983508,
+        "entailment": 0.00008674420241726072,
+        "neutral": 0.003290027999231957
+      },
+      "elapsedMs": 433,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-6f5f9946",
+      "evidenceId": "keytruda-v228:1-headandnecksquamouscellcancer:p2"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-12-4",
+    "family": "F12",
+    "split": "holdout",
+    "product": "keytruda",
+    "claim": "KEYTRUDA in combination with axitinib guarantees a cure for advanced renal cell carcinoma.",
+    "supported": false,
+    "kind": "mutation-2",
+    "evidenceId": "keytruda-v228:1-renalcellcarcinoma:p1",
+    "sectionId": "keytruda-v228:1-renalcellcarcinoma",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:1-renalcellcarcinoma:p1",
+      "keytruda-v228:1-merkelcellcarcinoma:p1",
+      "keytruda-v228:1-cutaneoussquamouscellcarcinoma:p1"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": false,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "neutral",
+      "scores": {
+        "contradiction": 0.0009840945465590795,
+        "entailment": 0.005632479914058715,
+        "neutral": 0.9933834255393821
+      },
+      "elapsedMs": 389,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-9a3e4a75",
+      "evidenceId": "keytruda-v228:1-renalcellcarcinoma:p1"
+    },
+    "issues": [
+      {
+        "kind": "unsupported",
+        "title": "Unsubstantiated assertion",
+        "detail": "An absolute, comparative or curative assertion needs specific supporting evidence. A matching word or source citation is insufficient."
+      }
+    ]
+  },
+  {
+    "id": "PE-12-5",
+    "family": "F12",
+    "split": "holdout",
+    "product": "keytruda",
+    "claim": "KEYTRUDA, in combination with axitinib, is indicated for the first-line treatment of adult patients with advanced renal cell carcinoma (RCC) and is superior to all alternative medicines.",
+    "supported": false,
+    "kind": "unsupported-comparison",
+    "evidenceId": "keytruda-v228:1-renalcellcarcinoma:p1",
+    "sectionId": "keytruda-v228:1-renalcellcarcinoma",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:1-renalcellcarcinoma:p1",
+      "keytruda-v228:1-renalcellcarcinoma:p2",
+      "keytruda-v228:1-headandnecksquamouscellcancer:p2"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": false,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "neutral",
+      "scores": {
+        "contradiction": 0.0033995192963980443,
+        "entailment": 0.00044803947551654564,
+        "neutral": 0.9961524412280854
+      },
+      "elapsedMs": 505,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-ce2734e7",
+      "evidenceId": "keytruda-v228:1-renalcellcarcinoma:p2"
+    },
+    "issues": [
+      {
+        "kind": "unsupported",
+        "title": "Unsubstantiated assertion",
+        "detail": "An absolute, comparative or curative assertion needs specific supporting evidence. A matching word or source citation is insufficient."
+      }
+    ]
+  },
+  {
+    "id": "PE-12-6",
+    "family": "F12",
+    "split": "holdout",
+    "product": "keytruda",
+    "claim": "KEYTRUDA, in combination with axitinib, is indicated for the first-line treatment of adult patients with advanced renal cell carcinoma (RCC) and guarantees a complete cure without any adverse reactions.",
+    "supported": false,
+    "kind": "unsupported-guarantee",
+    "evidenceId": "keytruda-v228:1-renalcellcarcinoma:p1",
+    "sectionId": "keytruda-v228:1-renalcellcarcinoma",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:1-renalcellcarcinoma:p1",
+      "keytruda-v228:1-renalcellcarcinoma:p2",
+      "keytruda-v228:1-headandnecksquamouscellcancer:p2"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": false,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "neutral",
+      "scores": {
+        "contradiction": 0.010411230828071756,
+        "entailment": 0.0003962772899298231,
+        "neutral": 0.9891924918819983
+      },
+      "elapsedMs": 619,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-cec9b2a0",
+      "evidenceId": "keytruda-v228:1-renalcellcarcinoma:p2"
+    },
+    "issues": [
+      {
+        "kind": "unsupported",
+        "title": "Unsubstantiated assertion",
+        "detail": "An absolute, comparative or curative assertion needs specific supporting evidence. A matching word or source citation is insufficient."
+      }
+    ]
+  },
+  {
+    "id": "PE-13-1",
+    "family": "F13",
+    "split": "development",
+    "product": "winrevair",
+    "claim": "WINREVAIR may decrease platelet count.",
+    "supported": true,
+    "kind": "source-exact",
+    "evidenceId": "winrevair-v13:5-severethrombocytopenia:p1",
+    "sectionId": "winrevair-v13:5-severethrombocytopenia",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "winrevair-v13:5-severethrombocytopenia:p1",
+      "winrevair-v13:17-patientcounselinginformation:p7",
+      "winrevair-v13:2-dosagemodificationsduetohemoglobinincreaseorplateletcountdecrease:p8"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": true,
+    "combinedSupported": true,
+    "neural": {
+      "label": "entailment",
+      "scores": {
+        "contradiction": 0.0010449864785483385,
+        "entailment": 0.9943021949311097,
+        "neutral": 0.00465281859034193
+      },
+      "elapsedMs": 199,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-ef36c52d",
+      "evidenceId": "winrevair-v13:5-severethrombocytopenia:p1"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-13-2",
+    "family": "F13",
+    "split": "development",
+    "product": "winrevair",
+    "claim": "WINREVAIR may lower platelet counts.",
+    "supported": true,
+    "kind": "paraphrase",
+    "evidenceId": "winrevair-v13:5-severethrombocytopenia:p1",
+    "sectionId": "winrevair-v13:5-severethrombocytopenia",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [],
+    "retrievalHit": false,
+    "rulesSupported": false,
+    "retrievalSupported": false,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": null,
+    "issues": [
+      {
+        "kind": "unsupported",
+        "title": "No relevant passage retrieved",
+        "detail": "No sufficiently overlapping passage was found in the pinned two-product corpus. Broader evidence may exist outside this dataset."
+      }
+    ]
+  },
+  {
+    "id": "PE-13-3",
+    "family": "F13",
+    "split": "development",
+    "product": "winrevair",
+    "claim": "WINREVAIR never decreases platelet count.",
+    "supported": false,
+    "kind": "mutation-1",
+    "evidenceId": "winrevair-v13:5-severethrombocytopenia:p1",
+    "sectionId": "winrevair-v13:5-severethrombocytopenia",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "winrevair-v13:2-dosagemodificationsduetohemoglobinincreaseorplateletcountdecrease:p7",
+      "winrevair-v13:5-severethrombocytopenia:p1",
+      "winrevair-v13:2-dosagemodificationsduetohemoglobinincreaseorplateletcountdecrease:p8"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "contradiction",
+      "scores": {
+        "contradiction": 0.9983540692792863,
+        "entailment": 0.00013647110313328,
+        "neutral": 0.0015094596175806458
+      },
+      "elapsedMs": 259,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-ad3227a5",
+      "evidenceId": "winrevair-v13:2-dosagemodificationsduetohemoglobinincreaseorplateletcountdecrease:p7"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-13-4",
+    "family": "F13",
+    "split": "development",
+    "product": "winrevair",
+    "claim": "WINREVAIR always increases platelet counts and prevents bleeding.",
+    "supported": false,
+    "kind": "mutation-2",
+    "evidenceId": "winrevair-v13:5-severethrombocytopenia:p1",
+    "sectionId": "winrevair-v13:5-severethrombocytopenia",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "winrevair-v13:5-seriousbleeding:p1",
+      "winrevair-v13:17-patientcounselinginformation:p7"
+    ],
+    "retrievalHit": false,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "contradiction",
+      "scores": {
+        "contradiction": 0.993826654549719,
+        "entailment": 0.0002729189163549038,
+        "neutral": 0.0059004265339262065
+      },
+      "elapsedMs": 233,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-6bf746c1",
+      "evidenceId": "winrevair-v13:5-seriousbleeding:p1"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-13-5",
+    "family": "F13",
+    "split": "development",
+    "product": "winrevair",
+    "claim": "WINREVAIR may decrease platelet count and is superior to all alternative medicines.",
+    "supported": false,
+    "kind": "unsupported-comparison",
+    "evidenceId": "winrevair-v13:5-severethrombocytopenia:p1",
+    "sectionId": "winrevair-v13:5-severethrombocytopenia",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "winrevair-v13:5-severethrombocytopenia:p1",
+      "winrevair-v13:17-patientcounselinginformation:p7",
+      "winrevair-v13:2-dosagemodificationsduetohemoglobinincreaseorplateletcountdecrease:p8"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": false,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "neutral",
+      "scores": {
+        "contradiction": 0.007218454652489148,
+        "entailment": 0.0008277051017704548,
+        "neutral": 0.9919538402457404
+      },
+      "elapsedMs": 205,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-b67b1225",
+      "evidenceId": "winrevair-v13:17-patientcounselinginformation:p7"
+    },
+    "issues": [
+      {
+        "kind": "unsupported",
+        "title": "Unsubstantiated assertion",
+        "detail": "An absolute, comparative or curative assertion needs specific supporting evidence. A matching word or source citation is insufficient."
+      }
+    ]
+  },
+  {
+    "id": "PE-13-6",
+    "family": "F13",
+    "split": "development",
+    "product": "winrevair",
+    "claim": "WINREVAIR may decrease platelet count and guarantees a complete cure without any adverse reactions.",
+    "supported": false,
+    "kind": "unsupported-guarantee",
+    "evidenceId": "winrevair-v13:5-severethrombocytopenia:p1",
+    "sectionId": "winrevair-v13:5-severethrombocytopenia",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "winrevair-v13:5-severethrombocytopenia:p1",
+      "winrevair-v13:17-patientcounselinginformation:p7",
+      "winrevair-v13:2-dosagemodificationsduetohemoglobinincreaseorplateletcountdecrease:p8"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": false,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "neutral",
+      "scores": {
+        "contradiction": 0.0019160712049042451,
+        "entailment": 0.0004597654228905499,
+        "neutral": 0.9976241633722052
+      },
+      "elapsedMs": 308,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-e2bb1052",
+      "evidenceId": "winrevair-v13:5-severethrombocytopenia:p1"
+    },
+    "issues": [
+      {
+        "kind": "unsupported",
+        "title": "Unsubstantiated assertion",
+        "detail": "An absolute, comparative or curative assertion needs specific supporting evidence. A matching word or source citation is insufficient."
+      }
+    ]
+  },
+  {
+    "id": "PE-14-1",
+    "family": "F14",
+    "split": "holdout",
+    "product": "keytruda",
+    "claim": "KEYTRUDA, in combination with carboplatin and paclitaxel, followed by KEYTRUDA as a single agent, is indicated for the treatment of adult patients with primary advanced or recurrent endometrial carcinoma.",
+    "supported": true,
+    "kind": "source-exact",
+    "evidenceId": "keytruda-v228:1-endometrialcarcinoma:p1",
+    "sectionId": "keytruda-v228:1-endometrialcarcinoma",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:1-endometrialcarcinoma:p1",
+      "keytruda-v228:14-endometrialcarcinoma:p1",
+      "keytruda-v228:1-urothelialcancer:p2"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": true,
+    "combinedSupported": true,
+    "neural": {
+      "label": "entailment",
+      "scores": {
+        "contradiction": 0.002046984212224481,
+        "entailment": 0.9912602884008156,
+        "neutral": 0.006692727386959931
+      },
+      "elapsedMs": 522,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-7069b6ab",
+      "evidenceId": "keytruda-v228:1-endometrialcarcinoma:p1"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-14-2",
+    "family": "F14",
+    "split": "holdout",
+    "product": "keytruda",
+    "claim": "KEYTRUDA with carboplatin and paclitaxel, followed by single-agent KEYTRUDA, is indicated for adults with primary advanced or recurrent endometrial carcinoma.",
+    "supported": true,
+    "kind": "paraphrase",
+    "evidenceId": "keytruda-v228:1-endometrialcarcinoma:p1",
+    "sectionId": "keytruda-v228:1-endometrialcarcinoma",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:1-endometrialcarcinoma:p1",
+      "keytruda-v228:14-endometrialcarcinoma:p1",
+      "keytruda-v228:1-urothelialcancer:p2"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": true,
+    "combinedSupported": true,
+    "neural": {
+      "label": "entailment",
+      "scores": {
+        "contradiction": 0.0021382098562450986,
+        "entailment": 0.9930058323539811,
+        "neutral": 0.004855957789773801
+      },
+      "elapsedMs": 546,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-f3da150a",
+      "evidenceId": "keytruda-v228:1-endometrialcarcinoma:p1"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-14-3",
+    "family": "F14",
+    "split": "holdout",
+    "product": "keytruda",
+    "claim": "KEYTRUDA alone is indicated for all children with early localized endometrial carcinoma.",
+    "supported": false,
+    "kind": "mutation-1",
+    "evidenceId": "keytruda-v228:1-endometrialcarcinoma:p1",
+    "sectionId": "keytruda-v228:1-endometrialcarcinoma",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:1-endometrialcarcinoma:p1",
+      "keytruda-v228:14-endometrialcarcinoma:p47",
+      "keytruda-v228:1-endometrialcarcinoma:p3"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "contradiction",
+      "scores": {
+        "contradiction": 0.9796234642693381,
+        "entailment": 0.0004212216834862911,
+        "neutral": 0.019955314047175578
+      },
+      "elapsedMs": 462,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-8d04a478",
+      "evidenceId": "keytruda-v228:14-endometrialcarcinoma:p47"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-14-4",
+    "family": "F14",
+    "split": "holdout",
+    "product": "keytruda",
+    "claim": "KEYTRUDA with carboplatin and paclitaxel is guaranteed to cure recurrent endometrial carcinoma.",
+    "supported": false,
+    "kind": "mutation-2",
+    "evidenceId": "keytruda-v228:1-endometrialcarcinoma:p1",
+    "sectionId": "keytruda-v228:1-endometrialcarcinoma",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:14-endometrialcarcinoma:p1",
+      "keytruda-v228:1-endometrialcarcinoma:p1",
+      "keytruda-v228:14-endometrialcarcinoma:p2"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": false,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "neutral",
+      "scores": {
+        "contradiction": 0.0025404700001742417,
+        "entailment": 0.0029887363627344584,
+        "neutral": 0.9944707936370912
+      },
+      "elapsedMs": 346,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-fda26852",
+      "evidenceId": "keytruda-v228:1-endometrialcarcinoma:p1"
+    },
+    "issues": [
+      {
+        "kind": "unsupported",
+        "title": "Unsubstantiated assertion",
+        "detail": "An absolute, comparative or curative assertion needs specific supporting evidence. A matching word or source citation is insufficient."
+      }
+    ]
+  },
+  {
+    "id": "PE-14-5",
+    "family": "F14",
+    "split": "holdout",
+    "product": "keytruda",
+    "claim": "KEYTRUDA, in combination with carboplatin and paclitaxel, followed by KEYTRUDA as a single agent, is indicated for the treatment of adult patients with primary advanced or recurrent endometrial carcinoma and is superior to all alternative medicines.",
+    "supported": false,
+    "kind": "unsupported-comparison",
+    "evidenceId": "keytruda-v228:1-endometrialcarcinoma:p1",
+    "sectionId": "keytruda-v228:1-endometrialcarcinoma",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:1-endometrialcarcinoma:p1",
+      "keytruda-v228:14-endometrialcarcinoma:p1",
+      "keytruda-v228:1-urothelialcancer:p2"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": false,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "neutral",
+      "scores": {
+        "contradiction": 0.0036992214925178975,
+        "entailment": 0.0005668851303810949,
+        "neutral": 0.995733893377101
+      },
+      "elapsedMs": 580,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-80b4259b",
+      "evidenceId": "keytruda-v228:14-endometrialcarcinoma:p1"
+    },
+    "issues": [
+      {
+        "kind": "unsupported",
+        "title": "Unsubstantiated assertion",
+        "detail": "An absolute, comparative or curative assertion needs specific supporting evidence. A matching word or source citation is insufficient."
+      }
+    ]
+  },
+  {
+    "id": "PE-14-6",
+    "family": "F14",
+    "split": "holdout",
+    "product": "keytruda",
+    "claim": "KEYTRUDA, in combination with carboplatin and paclitaxel, followed by KEYTRUDA as a single agent, is indicated for the treatment of adult patients with primary advanced or recurrent endometrial carcinoma and guarantees a complete cure without any adverse reactions.",
+    "supported": false,
+    "kind": "unsupported-guarantee",
+    "evidenceId": "keytruda-v228:1-endometrialcarcinoma:p1",
+    "sectionId": "keytruda-v228:1-endometrialcarcinoma",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:1-endometrialcarcinoma:p1",
+      "keytruda-v228:14-endometrialcarcinoma:p1",
+      "keytruda-v228:1-endometrialcarcinoma:p3"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": false,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "neutral",
+      "scores": {
+        "contradiction": 0.0015305158813255049,
+        "entailment": 0.00042140451988894456,
+        "neutral": 0.9980480795987856
+      },
+      "elapsedMs": 662,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-acb1cfac",
+      "evidenceId": "keytruda-v228:1-endometrialcarcinoma:p1"
+    },
+    "issues": [
+      {
+        "kind": "unsupported",
+        "title": "Unsubstantiated assertion",
+        "detail": "An absolute, comparative or curative assertion needs specific supporting evidence. A matching word or source citation is insufficient."
+      }
+    ]
+  },
+  {
+    "id": "PE-15-1",
+    "family": "F15",
+    "split": "development",
+    "product": "winrevair",
+    "claim": "WINREVAIR increases the risk of bleeding.",
+    "supported": true,
+    "kind": "source-exact",
+    "evidenceId": "winrevair-v13:5-seriousbleeding:p1",
+    "sectionId": "winrevair-v13:5-seriousbleeding",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "winrevair-v13:5-seriousbleeding:p1",
+      "winrevair-v13:5-severethrombocytopenia:p2"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": true,
+    "combinedSupported": true,
+    "neural": {
+      "label": "entailment",
+      "scores": {
+        "contradiction": 0.0006686376325868213,
+        "entailment": 0.996382222931634,
+        "neutral": 0.0029491394357790694
+      },
+      "elapsedMs": 247,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-e104417a",
+      "evidenceId": "winrevair-v13:5-seriousbleeding:p1"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-15-2",
+    "family": "F15",
+    "split": "development",
+    "product": "winrevair",
+    "claim": "WINREVAIR increases bleeding risk.",
+    "supported": true,
+    "kind": "paraphrase",
+    "evidenceId": "winrevair-v13:5-seriousbleeding:p1",
+    "sectionId": "winrevair-v13:5-seriousbleeding",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "winrevair-v13:5-seriousbleeding:p1",
+      "winrevair-v13:5-severethrombocytopenia:p2"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": true,
+    "combinedSupported": true,
+    "neural": {
+      "label": "entailment",
+      "scores": {
+        "contradiction": 0.0006038612660323514,
+        "entailment": 0.9963356012845043,
+        "neutral": 0.0030605374494632725
+      },
+      "elapsedMs": 224,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-b510ad7a",
+      "evidenceId": "winrevair-v13:5-seriousbleeding:p1"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-15-3",
+    "family": "F15",
+    "split": "development",
+    "product": "winrevair",
+    "claim": "WINREVAIR does not increase the risk of bleeding.",
+    "supported": false,
+    "kind": "mutation-1",
+    "evidenceId": "winrevair-v13:5-seriousbleeding:p1",
+    "sectionId": "winrevair-v13:5-seriousbleeding",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "winrevair-v13:5-severethrombocytopenia:p2",
+      "winrevair-v13:2-preparationandadministration:p19",
+      "winrevair-v13:5-seriousbleeding:p1"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "neutral",
+      "scores": {
+        "contradiction": 0.008413014212287014,
+        "entailment": 0.18520700456097802,
+        "neutral": 0.806379981226735
+      },
+      "elapsedMs": 294,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-df701c1b",
+      "evidenceId": "winrevair-v13:2-preparationandadministration:p19"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-15-4",
+    "family": "F15",
+    "split": "development",
+    "product": "winrevair",
+    "claim": "WINREVAIR eliminates bleeding risk in all patients.",
+    "supported": false,
+    "kind": "mutation-2",
+    "evidenceId": "winrevair-v13:5-seriousbleeding:p1",
+    "sectionId": "winrevair-v13:5-seriousbleeding",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "winrevair-v13:5-seriousbleeding:p1",
+      "winrevair-v13:5-severethrombocytopenia:p2",
+      "winrevair-v13:8-pregnancy:p7"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "contradiction",
+      "scores": {
+        "contradiction": 0.9991143407494016,
+        "entailment": 0.00013336849759642267,
+        "neutral": 0.0007522907530018807
+      },
+      "elapsedMs": 285,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-fadb9a88",
+      "evidenceId": "winrevair-v13:5-seriousbleeding:p1"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-15-5",
+    "family": "F15",
+    "split": "development",
+    "product": "winrevair",
+    "claim": "WINREVAIR increases the risk of bleeding and is superior to all alternative medicines.",
+    "supported": false,
+    "kind": "unsupported-comparison",
+    "evidenceId": "winrevair-v13:5-seriousbleeding:p1",
+    "sectionId": "winrevair-v13:5-seriousbleeding",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "winrevair-v13:5-seriousbleeding:p1",
+      "winrevair-v13:5-severethrombocytopenia:p2",
+      "winrevair-v13:8-pregnancy:p7"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": false,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "neutral",
+      "scores": {
+        "contradiction": 0.12294949190330337,
+        "entailment": 0.0007805088088140089,
+        "neutral": 0.8762699992878827
+      },
+      "elapsedMs": 306,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-13864f14",
+      "evidenceId": "winrevair-v13:5-severethrombocytopenia:p2"
+    },
+    "issues": [
+      {
+        "kind": "unsupported",
+        "title": "Unsubstantiated assertion",
+        "detail": "An absolute, comparative or curative assertion needs specific supporting evidence. A matching word or source citation is insufficient."
+      }
+    ]
+  },
+  {
+    "id": "PE-15-6",
+    "family": "F15",
+    "split": "development",
+    "product": "winrevair",
+    "claim": "WINREVAIR increases the risk of bleeding and guarantees a complete cure without any adverse reactions.",
+    "supported": false,
+    "kind": "unsupported-guarantee",
+    "evidenceId": "winrevair-v13:5-seriousbleeding:p1",
+    "sectionId": "winrevair-v13:5-seriousbleeding",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "winrevair-v13:5-seriousbleeding:p1",
+      "winrevair-v13:8-geriatricuse:p3",
+      "winrevair-v13:5-severethrombocytopenia:p2"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": false,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "neutral",
+      "scores": {
+        "contradiction": 0.0019618857537203813,
+        "entailment": 0.00043942064875575164,
+        "neutral": 0.9975986935975238
+      },
+      "elapsedMs": 371,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-84cf58f7",
+      "evidenceId": "winrevair-v13:5-seriousbleeding:p1"
+    },
+    "issues": [
+      {
+        "kind": "unsupported",
+        "title": "Unsubstantiated assertion",
+        "detail": "An absolute, comparative or curative assertion needs specific supporting evidence. A matching word or source citation is insufficient."
+      }
+    ]
+  },
+  {
+    "id": "PE-16-1",
+    "family": "F16",
+    "split": "development",
+    "product": "keytruda",
+    "claim": "KEYTRUDA is indicated for the treatment of patients with high-risk early-stage triple-negative breast cancer (TNBC) in combination with chemotherapy as neoadjuvant treatment, and then continued as a single agent as adjuvant treatment after surgery.",
+    "supported": true,
+    "kind": "source-exact",
+    "evidenceId": "keytruda-v228:1-triplenegativebreastcancer:p1",
+    "sectionId": "keytruda-v228:1-triplenegativebreastcancer",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:1-triplenegativebreastcancer:p1",
+      "keytruda-v228:1-nonsmallcelllungcancer:p7",
+      "keytruda-v228:14-triplenegativebreastcancer:p1"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": true,
+    "combinedSupported": true,
+    "neural": {
+      "label": "entailment",
+      "scores": {
+        "contradiction": 0.0028989462003113464,
+        "entailment": 0.9893970377839252,
+        "neutral": 0.007704016015763434
+      },
+      "elapsedMs": 679,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-ffd9473c",
+      "evidenceId": "keytruda-v228:1-triplenegativebreastcancer:p1"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-16-2",
+    "family": "F16",
+    "split": "development",
+    "product": "keytruda",
+    "claim": "KEYTRUDA with chemotherapy is indicated before surgery for high-risk early-stage TNBC, then continued alone as adjuvant therapy after surgery.",
+    "supported": true,
+    "kind": "paraphrase",
+    "evidenceId": "keytruda-v228:1-triplenegativebreastcancer:p1",
+    "sectionId": "keytruda-v228:1-triplenegativebreastcancer",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:1-triplenegativebreastcancer:p1",
+      "keytruda-v228:14-triplenegativebreastcancer:p1",
+      "keytruda-v228:1-nonsmallcelllungcancer:p7"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "contradiction",
+      "scores": {
+        "contradiction": 0.7630870708646527,
+        "entailment": 0.22072667828623946,
+        "neutral": 0.01618625084910801
+      },
+      "elapsedMs": 561,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-305765e4",
+      "evidenceId": "keytruda-v228:1-triplenegativebreastcancer:p1"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-16-3",
+    "family": "F16",
+    "split": "development",
+    "product": "keytruda",
+    "claim": "KEYTRUDA is indicated for all breast cancer types without chemotherapy or surgery.",
+    "supported": false,
+    "kind": "mutation-1",
+    "evidenceId": "keytruda-v228:1-triplenegativebreastcancer:p1",
+    "sectionId": "keytruda-v228:1-triplenegativebreastcancer",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:1-triplenegativebreastcancer:p1",
+      "keytruda-v228:14-triplenegativebreastcancer:p25",
+      "keytruda-v228:1-cervicalcancer:p2"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "contradiction",
+      "scores": {
+        "contradiction": 0.9615901849408465,
+        "entailment": 0.0015545510872128985,
+        "neutral": 0.03685526397194075
+      },
+      "elapsedMs": 500,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-d1b50aa8",
+      "evidenceId": "keytruda-v228:14-triplenegativebreastcancer:p25"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-16-4",
+    "family": "F16",
+    "split": "development",
+    "product": "keytruda",
+    "claim": "KEYTRUDA alone cures all low-risk hormone-receptor-positive breast cancers.",
+    "supported": false,
+    "kind": "mutation-2",
+    "evidenceId": "keytruda-v228:1-triplenegativebreastcancer:p1",
+    "sectionId": "keytruda-v228:1-triplenegativebreastcancer",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:1-triplenegativebreastcancer:p1",
+      "keytruda-v228:14-cervicalcancer:p3"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": false,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "contradiction",
+      "scores": {
+        "contradiction": 0.996666488254765,
+        "entailment": 0.00008971023909486387,
+        "neutral": 0.003243801506140178
+      },
+      "elapsedMs": 532,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-888b8895",
+      "evidenceId": "keytruda-v228:1-triplenegativebreastcancer:p1"
+    },
+    "issues": [
+      {
+        "kind": "unsupported",
+        "title": "Unsubstantiated assertion",
+        "detail": "An absolute, comparative or curative assertion needs specific supporting evidence. A matching word or source citation is insufficient."
+      }
+    ]
+  },
+  {
+    "id": "PE-16-5",
+    "family": "F16",
+    "split": "development",
+    "product": "keytruda",
+    "claim": "KEYTRUDA is indicated for the treatment of patients with high-risk early-stage triple-negative breast cancer (TNBC) in combination with chemotherapy as neoadjuvant treatment, and then continued as a single agent as adjuvant treatment after surgery and is superior to all alternative medicines.",
+    "supported": false,
+    "kind": "unsupported-comparison",
+    "evidenceId": "keytruda-v228:1-triplenegativebreastcancer:p1",
+    "sectionId": "keytruda-v228:1-triplenegativebreastcancer",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:1-triplenegativebreastcancer:p1",
+      "keytruda-v228:1-nonsmallcelllungcancer:p7",
+      "keytruda-v228:14-triplenegativebreastcancer:p1"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": false,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "neutral",
+      "scores": {
+        "contradiction": 0.0013932869327659353,
+        "entailment": 0.0003298305052378541,
+        "neutral": 0.9982768825619963
+      },
+      "elapsedMs": 704,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-bb4c8076",
+      "evidenceId": "keytruda-v228:1-triplenegativebreastcancer:p1"
+    },
+    "issues": [
+      {
+        "kind": "unsupported",
+        "title": "Unsubstantiated assertion",
+        "detail": "An absolute, comparative or curative assertion needs specific supporting evidence. A matching word or source citation is insufficient."
+      }
+    ]
+  },
+  {
+    "id": "PE-16-6",
+    "family": "F16",
+    "split": "development",
+    "product": "keytruda",
+    "claim": "KEYTRUDA is indicated for the treatment of patients with high-risk early-stage triple-negative breast cancer (TNBC) in combination with chemotherapy as neoadjuvant treatment, and then continued as a single agent as adjuvant treatment after surgery and guarantees a complete cure without any adverse reactions.",
+    "supported": false,
+    "kind": "unsupported-guarantee",
+    "evidenceId": "keytruda-v228:1-triplenegativebreastcancer:p1",
+    "sectionId": "keytruda-v228:1-triplenegativebreastcancer",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:1-triplenegativebreastcancer:p1",
+      "keytruda-v228:1-nonsmallcelllungcancer:p7",
+      "keytruda-v228:14-triplenegativebreastcancer:p1"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": false,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "neutral",
+      "scores": {
+        "contradiction": 0.0013875460240999516,
+        "entailment": 0.00047049862428135195,
+        "neutral": 0.9981419553516186
+      },
+      "elapsedMs": 589,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-2e515785",
+      "evidenceId": "keytruda-v228:1-triplenegativebreastcancer:p1"
+    },
+    "issues": [
+      {
+        "kind": "unsupported",
+        "title": "Unsubstantiated assertion",
+        "detail": "An absolute, comparative or curative assertion needs specific supporting evidence. A matching word or source citation is insufficient."
+      }
+    ]
+  },
+  {
+    "id": "PE-17-1",
+    "family": "F17",
+    "split": "holdout",
+    "product": "winrevair",
+    "claim": "The safety and effectiveness of WINREVAIR have not been established in patients less than 18 years of age.",
+    "supported": true,
+    "kind": "source-exact",
+    "evidenceId": "winrevair-v13:8-pediatricuse:p1",
+    "sectionId": "winrevair-v13:8-pediatricuse",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "winrevair-v13:8-pediatricuse:p1",
+      "winrevair-v13:14-pulmonaryarterialhypertension:p52",
+      "winrevair-v13:14-pulmonaryarterialhypertension:p27"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": true,
+    "combinedSupported": true,
+    "neural": {
+      "label": "entailment",
+      "scores": {
+        "contradiction": 0.0015722104925248981,
+        "entailment": 0.9919898994139232,
+        "neutral": 0.006437890093551797
+      },
+      "elapsedMs": 318,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-5745fe50",
+      "evidenceId": "winrevair-v13:8-pediatricuse:p1"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-17-2",
+    "family": "F17",
+    "split": "holdout",
+    "product": "winrevair",
+    "claim": "WINREVAIR safety and effectiveness are not established in patients younger than 18 years.",
+    "supported": true,
+    "kind": "paraphrase",
+    "evidenceId": "winrevair-v13:8-pediatricuse:p1",
+    "sectionId": "winrevair-v13:8-pediatricuse",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "winrevair-v13:8-pediatricuse:p1",
+      "winrevair-v13:14-pulmonaryarterialhypertension:p52",
+      "winrevair-v13:8-geriatricuse:p4"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": true,
+    "combinedSupported": true,
+    "neural": {
+      "label": "entailment",
+      "scores": {
+        "contradiction": 0.0005721048151209785,
+        "entailment": 0.9950779329877788,
+        "neutral": 0.004349962197100171
+      },
+      "elapsedMs": 402,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-e607b7ca",
+      "evidenceId": "winrevair-v13:8-pediatricuse:p1"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-17-3",
+    "family": "F17",
+    "split": "holdout",
+    "product": "winrevair",
+    "claim": "WINREVAIR safety and effectiveness are established for all children younger than 18 years.",
+    "supported": false,
+    "kind": "mutation-1",
+    "evidenceId": "winrevair-v13:8-pediatricuse:p1",
+    "sectionId": "winrevair-v13:8-pediatricuse",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "winrevair-v13:8-pediatricuse:p1",
+      "winrevair-v13:14-pulmonaryarterialhypertension:p52",
+      "winrevair-v13:12-immunogenicity:p9"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": false,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "contradiction",
+      "scores": {
+        "contradiction": 0.9463853285602111,
+        "entailment": 0.002647412181612752,
+        "neutral": 0.05096725925817622
+      },
+      "elapsedMs": 407,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-cdad46e7",
+      "evidenceId": "winrevair-v13:14-pulmonaryarterialhypertension:p52"
+    },
+    "issues": [
+      {
+        "kind": "population",
+        "title": "Population extends beyond this reference",
+        "detail": "The indication passage describes adults with PAH, WHO Group 1. A pediatric benefit claim is not established by this source."
+      }
+    ]
+  },
+  {
+    "id": "PE-17-4",
+    "family": "F17",
+    "split": "holdout",
+    "product": "winrevair",
+    "claim": "WINREVAIR is proven safe and effective in newborn infants.",
+    "supported": false,
+    "kind": "mutation-2",
+    "evidenceId": "winrevair-v13:8-pediatricuse:p1",
+    "sectionId": "winrevair-v13:8-pediatricuse",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [],
+    "retrievalHit": false,
+    "rulesSupported": false,
+    "retrievalSupported": false,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": null,
+    "issues": [
+      {
+        "kind": "unsupported",
+        "title": "No relevant passage retrieved",
+        "detail": "No sufficiently overlapping passage was found in the pinned two-product corpus. Broader evidence may exist outside this dataset."
+      }
+    ]
+  },
+  {
+    "id": "PE-17-5",
+    "family": "F17",
+    "split": "holdout",
+    "product": "winrevair",
+    "claim": "The safety and effectiveness of WINREVAIR have not been established in patients less than 18 years of age and is superior to all alternative medicines.",
+    "supported": false,
+    "kind": "unsupported-comparison",
+    "evidenceId": "winrevair-v13:8-pediatricuse:p1",
+    "sectionId": "winrevair-v13:8-pediatricuse",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "winrevair-v13:8-pediatricuse:p1",
+      "winrevair-v13:14-pulmonaryarterialhypertension:p52",
+      "winrevair-v13:14-pulmonaryarterialhypertension:p27"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": false,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "neutral",
+      "scores": {
+        "contradiction": 0.18307671196318703,
+        "entailment": 0.0013589610643302292,
+        "neutral": 0.8155643269724827
+      },
+      "elapsedMs": 415,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-ff065d3a",
+      "evidenceId": "winrevair-v13:14-pulmonaryarterialhypertension:p52"
+    },
+    "issues": [
+      {
+        "kind": "unsupported",
+        "title": "Unsubstantiated assertion",
+        "detail": "An absolute, comparative or curative assertion needs specific supporting evidence. A matching word or source citation is insufficient."
+      }
+    ]
+  },
+  {
+    "id": "PE-17-6",
+    "family": "F17",
+    "split": "holdout",
+    "product": "winrevair",
+    "claim": "The safety and effectiveness of WINREVAIR have not been established in patients less than 18 years of age and guarantees a complete cure without any adverse reactions.",
+    "supported": false,
+    "kind": "unsupported-guarantee",
+    "evidenceId": "winrevair-v13:8-pediatricuse:p1",
+    "sectionId": "winrevair-v13:8-pediatricuse",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "winrevair-v13:8-pediatricuse:p1",
+      "winrevair-v13:14-pulmonaryarterialhypertension:p52",
+      "winrevair-v13:8-geriatricuse:p3"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": false,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "neutral",
+      "scores": {
+        "contradiction": 0.0062607523084422505,
+        "entailment": 0.0003842754942334919,
+        "neutral": 0.9933549721973242
+      },
+      "elapsedMs": 324,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-8418a701",
+      "evidenceId": "winrevair-v13:8-pediatricuse:p1"
+    },
+    "issues": [
+      {
+        "kind": "unsupported",
+        "title": "Unsubstantiated assertion",
+        "detail": "An absolute, comparative or curative assertion needs specific supporting evidence. A matching word or source citation is insufficient."
+      }
+    ]
+  },
+  {
+    "id": "PE-18-1",
+    "family": "F18",
+    "split": "development",
+    "product": "keytruda",
+    "claim": "KEYTRUDA is a monoclonal antibody that belongs to a class of drugs that bind to either the programmed death-receptor 1 (PD-1) or the PD-ligand 1 (PD-L1), blocking the PD-1/PD-L1 pathway, thereby removing inhibition of the immune response, potentially breaking peripheral tolerance and inducing immune-mediated adverse reactions.",
+    "supported": true,
+    "kind": "source-exact",
+    "evidenceId": "keytruda-v228:5-severeandfatalimmunemediatedadversereactions:p1",
+    "sectionId": "keytruda-v228:5-severeandfatalimmunemediatedadversereactions",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:5-severeandfatalimmunemediatedadversereactions:p1",
+      "keytruda-v228:12-mechanismofaction:p3",
+      "keytruda-v228:11-description:p1"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": true,
+    "combinedSupported": true,
+    "neural": {
+      "label": "entailment",
+      "scores": {
+        "contradiction": 0.001470434798258685,
+        "entailment": 0.9937031145044233,
+        "neutral": 0.004826450697317991
+      },
+      "elapsedMs": 895,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-4d5e0ce4",
+      "evidenceId": "keytruda-v228:5-severeandfatalimmunemediatedadversereactions:p1"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-18-2",
+    "family": "F18",
+    "split": "development",
+    "product": "keytruda",
+    "claim": "KEYTRUDA binds to PD-1 or PD-L1 pathways as described for its drug class and may induce immune-mediated adverse reactions.",
+    "supported": true,
+    "kind": "paraphrase",
+    "evidenceId": "keytruda-v228:5-severeandfatalimmunemediatedadversereactions:p1",
+    "sectionId": "keytruda-v228:5-severeandfatalimmunemediatedadversereactions",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:5-severeandfatalimmunemediatedadversereactions:p5",
+      "keytruda-v228:5-severeandfatalimmunemediatedadversereactions:p1",
+      "keytruda-v228:5-severeandfatalimmunemediatedadversereactions:p4"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": true,
+    "combinedSupported": true,
+    "neural": {
+      "label": "entailment",
+      "scores": {
+        "contradiction": 0.0009579335251811708,
+        "entailment": 0.9854995049994236,
+        "neutral": 0.013542561475395122
+      },
+      "elapsedMs": 616,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-443adcf0",
+      "evidenceId": "keytruda-v228:5-severeandfatalimmunemediatedadversereactions:p1"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-18-3",
+    "family": "F18",
+    "split": "development",
+    "product": "keytruda",
+    "claim": "KEYTRUDA has zero risk of immune-mediated adverse reactions.",
+    "supported": false,
+    "kind": "mutation-1",
+    "evidenceId": "keytruda-v228:5-severeandfatalimmunemediatedadversereactions:p1",
+    "sectionId": "keytruda-v228:5-severeandfatalimmunemediatedadversereactions",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:5-severeandfatalimmunemediatedadversereactions:p105",
+      "keytruda-v228:5-severeandfatalimmunemediatedadversereactions:p114",
+      "keytruda-v228:5-severeandfatalimmunemediatedadversereactions:p2"
+    ],
+    "retrievalHit": false,
+    "rulesSupported": false,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "contradiction",
+      "scores": {
+        "contradiction": 0.9962949187492797,
+        "entailment": 0.0001661732525000577,
+        "neutral": 0.003538907998220252
+      },
+      "elapsedMs": 257,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-f41fdd1f",
+      "evidenceId": "keytruda-v228:5-severeandfatalimmunemediatedadversereactions:p105"
+    },
+    "issues": [
+      {
+        "kind": "unsupported",
+        "title": "Unsubstantiated assertion",
+        "detail": "An absolute, comparative or curative assertion needs specific supporting evidence. A matching word or source citation is insufficient."
+      }
+    ]
+  },
+  {
+    "id": "PE-18-4",
+    "family": "F18",
+    "split": "development",
+    "product": "keytruda",
+    "claim": "KEYTRUDA never affects the PD-1 or PD-L1 pathway.",
+    "supported": false,
+    "kind": "mutation-2",
+    "evidenceId": "keytruda-v228:5-severeandfatalimmunemediatedadversereactions:p1",
+    "sectionId": "keytruda-v228:5-severeandfatalimmunemediatedadversereactions",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:5-embryofetaltoxicity:p2",
+      "keytruda-v228:12-mechanismofaction:p3",
+      "keytruda-v228:5-severeandfatalimmunemediatedadversereactions:p1"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "contradiction",
+      "scores": {
+        "contradiction": 0.9985164014954976,
+        "entailment": 0.00008304816146102662,
+        "neutral": 0.0014005503430412855
+      },
+      "elapsedMs": 467,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-4197963a",
+      "evidenceId": "keytruda-v228:12-mechanismofaction:p3"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-18-5",
+    "family": "F18",
+    "split": "development",
+    "product": "keytruda",
+    "claim": "KEYTRUDA is a monoclonal antibody that belongs to a class of drugs that bind to either the programmed death-receptor 1 (PD-1) or the PD-ligand 1 (PD-L1), blocking the PD-1/PD-L1 pathway, thereby removing inhibition of the immune response, potentially breaking peripheral tolerance and inducing immune-mediated adverse reactions and is superior to all alternative medicines.",
+    "supported": false,
+    "kind": "unsupported-comparison",
+    "evidenceId": "keytruda-v228:5-severeandfatalimmunemediatedadversereactions:p1",
+    "sectionId": "keytruda-v228:5-severeandfatalimmunemediatedadversereactions",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:5-severeandfatalimmunemediatedadversereactions:p1",
+      "keytruda-v228:12-mechanismofaction:p3",
+      "keytruda-v228:11-description:p1"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": false,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "neutral",
+      "scores": {
+        "contradiction": 0.04033333703129069,
+        "entailment": 0.0007390744962039899,
+        "neutral": 0.9589275884725054
+      },
+      "elapsedMs": 1004,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-17c9c58e",
+      "evidenceId": "keytruda-v228:12-mechanismofaction:p3"
+    },
+    "issues": [
+      {
+        "kind": "unsupported",
+        "title": "Unsubstantiated assertion",
+        "detail": "An absolute, comparative or curative assertion needs specific supporting evidence. A matching word or source citation is insufficient."
+      }
+    ]
+  },
+  {
+    "id": "PE-18-6",
+    "family": "F18",
+    "split": "development",
+    "product": "keytruda",
+    "claim": "KEYTRUDA is a monoclonal antibody that belongs to a class of drugs that bind to either the programmed death-receptor 1 (PD-1) or the PD-ligand 1 (PD-L1), blocking the PD-1/PD-L1 pathway, thereby removing inhibition of the immune response, potentially breaking peripheral tolerance and inducing immune-mediated adverse reactions and guarantees a complete cure without any adverse reactions.",
+    "supported": false,
+    "kind": "unsupported-guarantee",
+    "evidenceId": "keytruda-v228:5-severeandfatalimmunemediatedadversereactions:p1",
+    "sectionId": "keytruda-v228:5-severeandfatalimmunemediatedadversereactions",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:5-severeandfatalimmunemediatedadversereactions:p1",
+      "keytruda-v228:12-mechanismofaction:p3",
+      "keytruda-v228:11-description:p1"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": false,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "neutral",
+      "scores": {
+        "contradiction": 0.018744577491429965,
+        "entailment": 0.0004310158629911314,
+        "neutral": 0.9808244066455789
+      },
+      "elapsedMs": 964,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-3a8cc6ed",
+      "evidenceId": "keytruda-v228:5-severeandfatalimmunemediatedadversereactions:p1"
+    },
+    "issues": [
+      {
+        "kind": "unsupported",
+        "title": "Unsubstantiated assertion",
+        "detail": "An absolute, comparative or curative assertion needs specific supporting evidence. A matching word or source citation is insufficient."
+      }
+    ]
+  },
+  {
+    "id": "PE-19-1",
+    "family": "F19",
+    "split": "holdout",
+    "product": "winrevair",
+    "claim": "Serious hypersensitivity reactions have been reported in WINREVAIR-treated patients.",
+    "supported": true,
+    "kind": "source-exact",
+    "evidenceId": "winrevair-v13:5-hypersensitivity:p1",
+    "sectionId": "winrevair-v13:5-hypersensitivity",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "winrevair-v13:5-hypersensitivity:p1",
+      "winrevair-v13:17-patientcounselinginformation:p3",
+      "winrevair-v13:4-hypersensitivity:p1"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": true,
+    "combinedSupported": true,
+    "neural": {
+      "label": "entailment",
+      "scores": {
+        "contradiction": 0.0006232613304554217,
+        "entailment": 0.995006440953873,
+        "neutral": 0.004370297715671585
+      },
+      "elapsedMs": 327,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-5f21195",
+      "evidenceId": "winrevair-v13:5-hypersensitivity:p1"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-19-2",
+    "family": "F19",
+    "split": "holdout",
+    "product": "winrevair",
+    "claim": "Serious hypersensitivity reactions have been reported in patients treated with WINREVAIR.",
+    "supported": true,
+    "kind": "paraphrase",
+    "evidenceId": "winrevair-v13:5-hypersensitivity:p1",
+    "sectionId": "winrevair-v13:5-hypersensitivity",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "winrevair-v13:5-hypersensitivity:p1",
+      "winrevair-v13:17-patientcounselinginformation:p3",
+      "winrevair-v13:4-hypersensitivity:p1"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": true,
+    "combinedSupported": true,
+    "neural": {
+      "label": "entailment",
+      "scores": {
+        "contradiction": 0.0005994457678994626,
+        "entailment": 0.9961118882895191,
+        "neutral": 0.0032886659425813594
+      },
+      "elapsedMs": 253,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-5c55f546",
+      "evidenceId": "winrevair-v13:5-hypersensitivity:p1"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-19-3",
+    "family": "F19",
+    "split": "holdout",
+    "product": "winrevair",
+    "claim": "Serious hypersensitivity reactions have never been reported with WINREVAIR.",
+    "supported": false,
+    "kind": "mutation-1",
+    "evidenceId": "winrevair-v13:5-hypersensitivity:p1",
+    "sectionId": "winrevair-v13:5-hypersensitivity",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "winrevair-v13:5-hypersensitivity:p1",
+      "winrevair-v13:17-patientcounselinginformation:p3",
+      "winrevair-v13:4-hypersensitivity:p1"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "contradiction",
+      "scores": {
+        "contradiction": 0.9993306118954408,
+        "entailment": 0.00011371783132231103,
+        "neutral": 0.000555670273236773
+      },
+      "elapsedMs": 314,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-54be51aa",
+      "evidenceId": "winrevair-v13:17-patientcounselinginformation:p3"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-19-4",
+    "family": "F19",
+    "split": "holdout",
+    "product": "winrevair",
+    "claim": "WINREVAIR has no risk of hypersensitivity reactions.",
+    "supported": false,
+    "kind": "mutation-2",
+    "evidenceId": "winrevair-v13:5-hypersensitivity:p1",
+    "sectionId": "winrevair-v13:5-hypersensitivity",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "winrevair-v13:5-hypersensitivity:p1",
+      "winrevair-v13:5-hypersensitivity:p3",
+      "winrevair-v13:6-postmarketingexperience:p3"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": false,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "contradiction",
+      "scores": {
+        "contradiction": 0.9990774527553326,
+        "entailment": 0.00013631569591964233,
+        "neutral": 0.0007862315487477674
+      },
+      "elapsedMs": 403,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-64cbfd64",
+      "evidenceId": "winrevair-v13:5-hypersensitivity:p1"
+    },
+    "issues": [
+      {
+        "kind": "unsupported",
+        "title": "Unsubstantiated assertion",
+        "detail": "An absolute, comparative or curative assertion needs specific supporting evidence. A matching word or source citation is insufficient."
+      }
+    ]
+  },
+  {
+    "id": "PE-19-5",
+    "family": "F19",
+    "split": "holdout",
+    "product": "winrevair",
+    "claim": "Serious hypersensitivity reactions have been reported in WINREVAIR-treated patients and is superior to all alternative medicines.",
+    "supported": false,
+    "kind": "unsupported-comparison",
+    "evidenceId": "winrevair-v13:5-hypersensitivity:p1",
+    "sectionId": "winrevair-v13:5-hypersensitivity",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "winrevair-v13:5-hypersensitivity:p1",
+      "winrevair-v13:17-patientcounselinginformation:p3",
+      "winrevair-v13:4-hypersensitivity:p1"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": false,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "neutral",
+      "scores": {
+        "contradiction": 0.0034013928578706804,
+        "entailment": 0.001066337741567739,
+        "neutral": 0.9955322694005616
+      },
+      "elapsedMs": 476,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-a0356dfd",
+      "evidenceId": "winrevair-v13:17-patientcounselinginformation:p3"
+    },
+    "issues": [
+      {
+        "kind": "unsupported",
+        "title": "Unsubstantiated assertion",
+        "detail": "An absolute, comparative or curative assertion needs specific supporting evidence. A matching word or source citation is insufficient."
+      }
+    ]
+  },
+  {
+    "id": "PE-19-6",
+    "family": "F19",
+    "split": "holdout",
+    "product": "winrevair",
+    "claim": "Serious hypersensitivity reactions have been reported in WINREVAIR-treated patients and guarantees a complete cure without any adverse reactions.",
+    "supported": false,
+    "kind": "unsupported-guarantee",
+    "evidenceId": "winrevair-v13:5-hypersensitivity:p1",
+    "sectionId": "winrevair-v13:5-hypersensitivity",
+    "sourceHash": "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "winrevair-v13:5-hypersensitivity:p1",
+      "winrevair-v13:4-hypersensitivity:p1",
+      "winrevair-v13:17-patientcounselinginformation:p3"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": false,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "neutral",
+      "scores": {
+        "contradiction": 0.2313795550969643,
+        "entailment": 0.0004196422131581467,
+        "neutral": 0.7682008026898774
+      },
+      "elapsedMs": 543,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-8f5ed49a",
+      "evidenceId": "winrevair-v13:5-hypersensitivity:p1"
+    },
+    "issues": [
+      {
+        "kind": "unsupported",
+        "title": "Unsubstantiated assertion",
+        "detail": "An absolute, comparative or curative assertion needs specific supporting evidence. A matching word or source citation is insufficient."
+      }
+    ]
+  },
+  {
+    "id": "PE-20-1",
+    "family": "F20",
+    "split": "development",
+    "product": "keytruda",
+    "claim": "KEYTRUDA, in combination with pemetrexed and platinum chemotherapy, is indicated for the first-line treatment of patients with metastatic nonsquamous non-small cell lung cancer (NSCLC), with no EGFR or ALK genomic tumor aberrations.",
+    "supported": true,
+    "kind": "source-exact",
+    "evidenceId": "keytruda-v228:1-nonsmallcelllungcancer:p1",
+    "sectionId": "keytruda-v228:1-nonsmallcelllungcancer",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:1-nonsmallcelllungcancer:p1",
+      "keytruda-v228:1-nonsmallcelllungcancer:p3",
+      "keytruda-v228:1-nonsmallcelllungcancer:p6"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": true,
+    "combinedSupported": true,
+    "neural": {
+      "label": "entailment",
+      "scores": {
+        "contradiction": 0.0026269617529263546,
+        "entailment": 0.9897969382489356,
+        "neutral": 0.007576099998138142
+      },
+      "elapsedMs": 750,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-a77165f8",
+      "evidenceId": "keytruda-v228:1-nonsmallcelllungcancer:p1"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-20-2",
+    "family": "F20",
+    "split": "development",
+    "product": "keytruda",
+    "claim": "KEYTRUDA with pemetrexed and platinum chemotherapy is indicated as first-line treatment for metastatic nonsquamous NSCLC without EGFR or ALK genomic tumor aberrations.",
+    "supported": true,
+    "kind": "paraphrase",
+    "evidenceId": "keytruda-v228:1-nonsmallcelllungcancer:p1",
+    "sectionId": "keytruda-v228:1-nonsmallcelllungcancer",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:1-nonsmallcelllungcancer:p1",
+      "keytruda-v228:1-nonsmallcelllungcancer:p3",
+      "keytruda-v228:1-nonsmallcelllungcancer:p6"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": true,
+    "combinedSupported": true,
+    "neural": {
+      "label": "entailment",
+      "scores": {
+        "contradiction": 0.0006978363576491502,
+        "entailment": 0.9948529440091629,
+        "neutral": 0.004449219633187952
+      },
+      "elapsedMs": 628,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-50e767e1",
+      "evidenceId": "keytruda-v228:1-nonsmallcelllungcancer:p1"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-20-3",
+    "family": "F20",
+    "split": "development",
+    "product": "keytruda",
+    "claim": "KEYTRUDA alone is indicated as first-line treatment for all non-small cell lung cancer patients regardless of biomarkers or disease setting.",
+    "supported": false,
+    "kind": "mutation-1",
+    "evidenceId": "keytruda-v228:1-nonsmallcelllungcancer:p1",
+    "sectionId": "keytruda-v228:1-nonsmallcelllungcancer",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:1-nonsmallcelllungcancer:p1",
+      "keytruda-v228:1-renalcellcarcinoma:p1",
+      "keytruda-v228:1-headandnecksquamouscellcancer:p2"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": false,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "contradiction",
+      "scores": {
+        "contradiction": 0.9986751520778504,
+        "entailment": 0.00013659886255337268,
+        "neutral": 0.001188249059596182
+      },
+      "elapsedMs": 452,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-18945f41",
+      "evidenceId": "keytruda-v228:1-nonsmallcelllungcancer:p1"
+    },
+    "issues": [
+      {
+        "kind": "qualifier",
+        "title": "Treatment conditions omitted",
+        "detail": "The single-agent first-line NSCLC indication requires more context: PD-L1/TPS criteria, EGFR/ALK criteria, disease setting. Review the complete indication."
+      }
+    ]
+  },
+  {
+    "id": "PE-20-4",
+    "family": "F20",
+    "split": "development",
+    "product": "keytruda",
+    "claim": "KEYTRUDA with pemetrexed and platinum chemotherapy is indicated for every child with EGFR-positive early-stage NSCLC.",
+    "supported": false,
+    "kind": "mutation-2",
+    "evidenceId": "keytruda-v228:1-nonsmallcelllungcancer:p1",
+    "sectionId": "keytruda-v228:1-nonsmallcelllungcancer",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:1-nonsmallcelllungcancer:p1",
+      "keytruda-v228:1-nonsmallcelllungcancer:p8",
+      "keytruda-v228:1-nonsmallcelllungcancer:p7"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": true,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "contradiction",
+      "scores": {
+        "contradiction": 0.9299469861981552,
+        "entailment": 0.0005218146398044567,
+        "neutral": 0.06953119916204024
+      },
+      "elapsedMs": 459,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-2642e853",
+      "evidenceId": "keytruda-v228:1-nonsmallcelllungcancer:p8"
+    },
+    "issues": []
+  },
+  {
+    "id": "PE-20-5",
+    "family": "F20",
+    "split": "development",
+    "product": "keytruda",
+    "claim": "KEYTRUDA, in combination with pemetrexed and platinum chemotherapy, is indicated for the first-line treatment of patients with metastatic nonsquamous non-small cell lung cancer (NSCLC), with no EGFR or ALK genomic tumor aberrations and is superior to all alternative medicines.",
+    "supported": false,
+    "kind": "unsupported-comparison",
+    "evidenceId": "keytruda-v228:1-nonsmallcelllungcancer:p1",
+    "sectionId": "keytruda-v228:1-nonsmallcelllungcancer",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:1-nonsmallcelllungcancer:p1",
+      "keytruda-v228:1-nonsmallcelllungcancer:p3",
+      "keytruda-v228:1-nonsmallcelllungcancer:p6"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": false,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "neutral",
+      "scores": {
+        "contradiction": 0.0010458982867772144,
+        "entailment": 0.0004309680190323039,
+        "neutral": 0.9985231336941904
+      },
+      "elapsedMs": 833,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-b82cd132",
+      "evidenceId": "keytruda-v228:1-nonsmallcelllungcancer:p1"
+    },
+    "issues": [
+      {
+        "kind": "unsupported",
+        "title": "Unsubstantiated assertion",
+        "detail": "An absolute, comparative or curative assertion needs specific supporting evidence. A matching word or source citation is insufficient."
+      }
+    ]
+  },
+  {
+    "id": "PE-20-6",
+    "family": "F20",
+    "split": "development",
+    "product": "keytruda",
+    "claim": "KEYTRUDA, in combination with pemetrexed and platinum chemotherapy, is indicated for the first-line treatment of patients with metastatic nonsquamous non-small cell lung cancer (NSCLC), with no EGFR or ALK genomic tumor aberrations and guarantees a complete cure without any adverse reactions.",
+    "supported": false,
+    "kind": "unsupported-guarantee",
+    "evidenceId": "keytruda-v228:1-nonsmallcelllungcancer:p1",
+    "sectionId": "keytruda-v228:1-nonsmallcelllungcancer",
+    "sourceHash": "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692",
+    "annotation": "Authored against the linked passage. No independent clinical/regulatory adjudication.",
+    "topEvidence": [
+      "keytruda-v228:1-nonsmallcelllungcancer:p1",
+      "keytruda-v228:1-nonsmallcelllungcancer:p3",
+      "keytruda-v228:1-nonsmallcelllungcancer:p6"
+    ],
+    "retrievalHit": true,
+    "rulesSupported": false,
+    "retrievalSupported": true,
+    "neuralSupported": false,
+    "combinedSupported": false,
+    "neural": {
+      "label": "neutral",
+      "scores": {
+        "contradiction": 0.0017911691583140084,
+        "entailment": 0.00037611957011040887,
+        "neutral": 0.9978327112715756
+      },
+      "elapsedMs": 891,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-92996569",
+      "evidenceId": "keytruda-v228:1-nonsmallcelllungcancer:p1"
+    },
+    "issues": [
+      {
+        "kind": "unsupported",
+        "title": "Unsubstantiated assertion",
+        "detail": "An absolute, comparative or curative assertion needs specific supporting evidence. A matching word or source citation is insufficient."
+      }
+    ]
+  }
+]

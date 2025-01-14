@@ -1,0 +1,129 @@
+{
+  "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+  "generated": "2026-10-16T14:15:16.984Z",
+  "sourceHashes": [
+    "85e23afc40c6db59fd3bb9e51f278a775c38cecc2e5f8a08ed844d0dba4f9951",
+    "42a953c158597a22852c7e572ad8051b7d9e593e1275a5109072ceb2af108d3f",
+    "c32fa41d363dd6a1b74a922dc20e24fd9c6153790d402db4b37cf7fae61ca81b",
+    "3466c0b01ec7d6c1e18365872ca2147e59b7d05e87f06a27661e3b37f0c5c692"
+  ],
+  "results": {
+    "winrevair-e519630f": {
+      "label": "entailment",
+      "scores": {
+        "contradiction": 0.0005153151501782625,
+        "entailment": 0.991573252633041,
+        "neutral": 0.007911432216780805
+      },
+      "elapsedMs": 526,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-e519630f",
+      "evidenceId": "winrevair-v13:1-indicationsandusage:p1",
+      "claimText": "WINREVAIR improves exercise capacity in patients with pulmonary arterial hypertension."
+    },
+    "winrevair-714f13d3": {
+      "label": "entailment",
+      "scores": {
+        "contradiction": 0.0009869024618851144,
+        "entailment": 0.9934790095847627,
+        "neutral": 0.005534087953352171
+      },
+      "elapsedMs": 550,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-714f13d3",
+      "evidenceId": "winrevair-v13:1-indicationsandusage:p1",
+      "claimText": "WINREVAIR is indicated for adults with pulmonary arterial hypertension (PAH, WHO Group 1) to improve exercise capacity."
+    },
+    "winrevair-454c6691": {
+      "label": "contradiction",
+      "scores": {
+        "contradiction": 0.9693305419754031,
+        "entailment": 0.018124459420426814,
+        "neutral": 0.012544998604170155
+      },
+      "elapsedMs": 385,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-454c6691",
+      "evidenceId": "winrevair-v13:6-clinicaltrialsexperience:p4",
+      "claimText": "The starting dose of WINREVAIR is 0.7 mg/kg."
+    },
+    "winrevair-d5721f4d": {
+      "label": "entailment",
+      "scores": {
+        "contradiction": 0.0006950264850788799,
+        "entailment": 0.9950506235254273,
+        "neutral": 0.0042543499894938655
+      },
+      "elapsedMs": 112,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-d5721f4d",
+      "evidenceId": "winrevair-v13:5-erythrocytosis:p1",
+      "claimText": "WINREVAIR may increase hemoglobin."
+    },
+    "winrevair-332c9ef4": {
+      "label": "entailment",
+      "scores": {
+        "contradiction": 0.002588469689386427,
+        "entailment": 0.9801727251274336,
+        "neutral": 0.01723880518318002
+      },
+      "elapsedMs": 310,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "winrevair-332c9ef4",
+      "evidenceId": "winrevair-v13:2-recommendedstartingdosage:p1",
+      "claimText": "WINREVAIR is administered once every 3 weeks by subcutaneous injection."
+    },
+    "keytruda-81cc2d35": {
+      "label": "entailment",
+      "scores": {
+        "contradiction": 0.001534420610766697,
+        "entailment": 0.9895334249280346,
+        "neutral": 0.0089321544611987
+      },
+      "elapsedMs": 431,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-81cc2d35",
+      "evidenceId": "keytruda-v228:1-melanoma:p1",
+      "claimText": "KEYTRUDA is indicated for patients with unresectable or metastatic melanoma."
+    },
+    "keytruda-2d53db1b": {
+      "label": "contradiction",
+      "scores": {
+        "contradiction": 0.9987914223267259,
+        "entailment": 0.0002134838424510746,
+        "neutral": 0.000995093830822998
+      },
+      "elapsedMs": 523,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-2d53db1b",
+      "evidenceId": "keytruda-v228:1-nonsmallcelllungcancer:p1",
+      "claimText": "KEYTRUDA alone is a first-line treatment for non-small cell lung cancer."
+    },
+    "keytruda-1e40291a": {
+      "label": "entailment",
+      "scores": {
+        "contradiction": 0.005747386938500604,
+        "entailment": 0.9683187694563776,
+        "neutral": 0.0259338436051218
+      },
+      "elapsedMs": 318,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-1e40291a",
+      "evidenceId": "keytruda-v228:5-severeandfatalimmunemediatedadversereactions:p105",
+      "claimText": "KEYTRUDA can cause immune-mediated adverse reactions."
+    },
+    "keytruda-f4799b28": {
+      "label": "neutral",
+      "scores": {
+        "contradiction": 0.010148048707714708,
+        "entailment": 0.0013076523561209134,
+        "neutral": 0.9885442989361645
+      },
+      "elapsedMs": 452,
+      "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+      "claimId": "keytruda-f4799b28",
+      "evidenceId": "keytruda-v228:14-cervicalcancer:p31",
+      "claimText": "KEYTRUDA is superior to all other cancer treatments."
+    }
+  }
+}
