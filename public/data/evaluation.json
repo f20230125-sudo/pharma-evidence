@@ -1,0 +1,158 @@
+{
+  "status": "completed",
+  "updated": "2026-10-16T14:15:16.984Z",
+  "model": "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)",
+  "modelRevision": "2a4f614a701367a02d51389039afc998faeda637",
+  "cases": 120,
+  "development": 72,
+  "holdout": 48,
+  "benchmarkHash": "2be87eaed33c173ca2ffd8a5a4f0e7ada76a96c952a53c882480131c3e30607a",
+  "thresholds": {
+    "entailment": 0.8,
+    "retrievalScore": 8
+  },
+  "metrics": {
+    "rules": {
+      "n": 48,
+      "correct": 40,
+      "accuracy": 0.8333333333333334,
+      "accuracy95": [
+        0.7042189996260375,
+        0.9130458996054678
+      ],
+      "unsupportedMisses": 8,
+      "unsupportedCount": 32,
+      "falseFlags": 0,
+      "supportedCount": 16,
+      "evidenceRecall": 0.9375,
+      "meanMs": 224
+    },
+    "retrieval": {
+      "n": 48,
+      "correct": 19,
+      "accuracy": 0.3958333333333333,
+      "accuracy95": [
+        0.2702062649595057,
+        0.5368984540306487
+      ],
+      "unsupportedMisses": 29,
+      "unsupportedCount": 32,
+      "falseFlags": 0,
+      "supportedCount": 16,
+      "evidenceRecall": 0.9375,
+      "meanMs": 224
+    },
+    "neural": {
+      "n": 48,
+      "correct": 47,
+      "accuracy": 0.9791666666666666,
+      "accuracy95": [
+        0.8910053086246883,
+        0.9963129840206002
+      ],
+      "unsupportedMisses": 1,
+      "unsupportedCount": 32,
+      "falseFlags": 0,
+      "supportedCount": 16,
+      "evidenceRecall": 0.9375,
+      "meanMs": 224
+    },
+    "combined": {
+      "n": 48,
+      "correct": 48,
+      "accuracy": 1,
+      "accuracy95": [
+        0.9258973488472576,
+        0.9999999999999999
+      ],
+      "unsupportedMisses": 0,
+      "unsupportedCount": 32,
+      "falseFlags": 0,
+      "supportedCount": 16,
+      "evidenceRecall": 0.9375,
+      "meanMs": 224
+    }
+  },
+  "developmentMetrics": {
+    "rules": {
+      "n": 72,
+      "correct": 58,
+      "accuracy": 0.8055555555555556,
+      "accuracy95": [
+        0.6996702472161007,
+        0.8804862895658236
+      ],
+      "unsupportedMisses": 13,
+      "unsupportedCount": 48,
+      "falseFlags": 1,
+      "supportedCount": 24,
+      "evidenceRecall": 0.9305555555555556,
+      "meanMs": 266
+    },
+    "retrieval": {
+      "n": 72,
+      "correct": 25,
+      "accuracy": 0.3472222222222222,
+      "accuracy95": [
+        0.2475326163175922,
+        0.4623891152914456
+      ],
+      "unsupportedMisses": 46,
+      "unsupportedCount": 48,
+      "falseFlags": 1,
+      "supportedCount": 24,
+      "evidenceRecall": 0.9305555555555556,
+      "meanMs": 266
+    },
+    "neural": {
+      "n": 72,
+      "correct": 70,
+      "accuracy": 0.9722222222222222,
+      "accuracy95": [
+        0.9042564183109327,
+        0.9923491385338594
+      ],
+      "unsupportedMisses": 0,
+      "unsupportedCount": 48,
+      "falseFlags": 2,
+      "supportedCount": 24,
+      "evidenceRecall": 0.9305555555555556,
+      "meanMs": 266
+    },
+    "combined": {
+      "n": 72,
+      "correct": 70,
+      "accuracy": 0.9722222222222222,
+      "accuracy95": [
+        0.9042564183109327,
+        0.9923491385338594
+      ],
+      "unsupportedMisses": 0,
+      "unsupportedCount": 48,
+      "falseFlags": 2,
+      "supportedCount": 24,
+      "evidenceRecall": 0.9305555555555556,
+      "meanMs": 266
+    }
+  },
+  "limits": [
+    "Authored, unadjudicated fixtures from two products; this is not a clinical or regulatory validation.",
+    "Related paraphrases share a fact family and remain in the same split; cases are correlated. Wilson intervals treat cases as independent and may understate uncertainty.",
+    "The benchmark includes deliberately obvious mutations and comparisons; it does not represent the prevalence or complexity of real promotional materials.",
+    "The task is supported versus needs review. It does not assess legal compliance, full-document fair balance, or clinical decision making.",
+    "BM25 retrieval uses the latest pinned source only; evidence outside this corpus is not considered.",
+    "Selecting the highest entailment of two passages can miss a conflicting passage elsewhere in the source.",
+    "Model probabilities are not calibrated confidence. The real model runs separately from explicit rules.",
+    "No clinical expert reviewed the annotations; source-exact and authored paraphrase labels can be imperfect.",
+    "US-source labeling does not establish suitability for UAE promotional use.",
+    "Browser latency depends on the device; recorded timings use local Node CPU inference, not a hosted service."
+  ],
+  "failures": [
+    {
+      "id": "PE-07-3",
+      "claim": "After acceptable Hgb and platelet counts are verified, the WINREVAIR target dose is increased to 7 mg/kg.",
+      "expected": "needs review",
+      "predicted": "supported"
+    }
+  ]
+}
