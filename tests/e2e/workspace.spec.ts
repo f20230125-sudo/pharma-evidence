@@ -109,12 +109,30 @@ test("live AI runs from same-origin assets and returns real neural scores", asyn
 }) => {
   test.setTimeout(180000);
   const outside: string[] = [];
+  const weightRequests: string[] = [];
   page.on("request", (r) => {
+    if (r.url().endsWith("/onnx/model_quantized.onnx"))
+      weightRequests.push(r.url());
     if (!r.url().startsWith(baseURL!) && !r.url().startsWith("blob:"))
       outside.push(r.url());
   });
   await page.goto("/");
   await page.getByRole("button", { name: "Run AI on this device" }).click();
+  await expect
+    .poll(
+      async () => {
+        const errors = page.locator(".draft-ai-status.error");
+        const error = (await errors.count())
+          ? await errors.textContent()
+          : null;
+        if (error) throw Error("Local inference failed: " + error);
+        return await page
+          .getByText("Ran on this device", { exact: true })
+          .count();
+      },
+      { timeout: 160000 },
+    )
+    .toBe(1);
   await expect(
     page
       .locator(".neural-panel")
@@ -126,6 +144,7 @@ test("live AI runs from same-origin assets and returns real neural scores", asyn
     page.getByText("Ran on this device", { exact: true }),
   ).toBeVisible();
   expect(outside).toEqual([]);
+  expect(weightRequests).toHaveLength(1);
 });
 for (const width of [320, 390, 768]) {
   test(`all views fit at ${width}px and mobile navigation works`, async ({
