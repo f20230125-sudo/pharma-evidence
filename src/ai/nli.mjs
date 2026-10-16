@@ -3,6 +3,7 @@ import {
   AutoModelForSequenceClassification,
   env,
 } from "@huggingface/transformers";
+import { browserModelCache } from "./browser-cache.mjs";
 let tokenizer, model;
 export const MODEL_ID = "Xenova/nli-deberta-v3-xsmall@2a4f614 (int8)";
 const LOCAL_ID = "deberta-2a4f614";
@@ -13,6 +14,8 @@ export async function initialize(base, progress = () => {}) {
     typeof self !== "undefined" && typeof self.postMessage === "function";
   env.localModelPath = browser ? "/models/" : base;
   if (browser) {
+    env.useCustomCache = true;
+    env.customCache = await browserModelCache(progress);
     env.backends.onnx.wasm.numThreads = 1;
     env.backends.onnx.wasm.proxy = false;
     env.backends.onnx.wasm.wasmPaths = {

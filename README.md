@@ -77,6 +77,8 @@ Each review event records the claim text, source version, selected evidence/sect
 
 The model is `Xenova/nli-deberta-v3-xsmall`, pinned to revision `2a4f614a701367a02d51389039afc998faeda637`, with INT8 weights. Every model file is hash-checked during build. Revisioned model paths prevent mixing cached weights across future updates. No external model host, CDN font or analytics service is contacted by the running app; CSP restricts connections to the site itself.
 
+The browser loader also checks every file's byte length and SHA-256 before use, coalesces metadata and model reads, and uses an explicit revisioned cache. It bypasses the HTTP disk-cache path that failed during the first public smoke test and falls back to verified in-memory assets if persistent caching is unavailable. The browser regression test requires exactly one weights download.
+
 ## Run and reproduce
 
 Requires Node 24 and Python 3.12+.
