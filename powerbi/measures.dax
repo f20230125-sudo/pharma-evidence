@@ -1,0 +1,13 @@
+Source Versions = COUNTROWS(SourceVersions)
+
+Added Sections = CALCULATE(COUNTROWS(SectionChanges), SectionChanges[kind] = "added")
+
+Modified Sections = CALCULATE(COUNTROWS(SectionChanges), SectionChanges[kind] = "modified")
+
+Removed Sections = CALCULATE(COUNTROWS(SectionChanges), SectionChanges[kind] = "removed")
+
+Review Events = COUNTROWS(ReviewEvents)
+
+Reopen Events = CALCULATE(COUNTROWS(ReviewEvents), ReviewEvents[action] = "reopened")
+
+Claims With Events = DISTINCTCOUNT(ReviewEvents[claim_id])

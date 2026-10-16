@@ -1,0 +1,22 @@
+[
+  {
+    "product": "winrevair",
+    "application": "BLA761363",
+    "applicant": "MERCK SHARP DOHME",
+    "labelUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761363s012s016s017lbl.pdf",
+    "submissionDate": "20260921",
+    "sha256": "5134c380e1e2ec5da356ece6c42242f854bd1b920ad1e9dcdef0a1fa9a0dcc26",
+    "pages": 24,
+    "note": "Official FDA label downloaded; full text equivalence to DailyMed is not assumed."
+  },
+  {
+    "product": "keytruda",
+    "application": "BLA125514",
+    "applicant": "MERCK SHARP DOHME",
+    "labelUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/125514s194lbl.pdf",
+    "submissionDate": "20260710",
+    "sha256": "a9e298bde6c23856a1a4b61968848d145ad8d776a43862e1ebea5a89b28379df",
+    "pages": 202,
+    "note": "Official FDA label downloaded; full text equivalence to DailyMed is not assumed."
+  }
+]
