@@ -974,10 +974,10 @@ export default function Workspace({
                           <>
                             <div className="neural-result">
                               <strong>
-                                {result.label === "entailment"
-                                  ? "Passage supports the wording"
-                                  : result.label === "contradiction"
-                                    ? "Passage conflicts with the wording"
+                                {result.scores.entailment >= 0.8
+                                  ? "Model suggests support"
+                                  : result.scores.contradiction >= 0.8
+                                    ? "Model suggests a conflict"
                                     : "Support is not established"}
                               </strong>
                               <Badge kind="ai">
